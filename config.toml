@@ -1,0 +1,5 @@
+baseURL = "https://corfucinas.github.io/"
+languageCode = "en-us"
+title = "Pedro Torres"
+description = "Personal website"
+theme = "anatole"
