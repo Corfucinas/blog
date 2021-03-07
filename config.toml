@@ -1,5 +1,5 @@
 baseURL = "https://corfucinas.github.io/"
-languageCode = "en-us"
+languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Pedro Torres' blog"
 description = "Personal website"
@@ -24,9 +24,9 @@ title = "Welcome to my website"
 author = "Pedro Andrés Torres Cruz"
 # description = ""
 displayMode = "light"
-profilePicture = "https://media-exp1.licdn.com/dms/image/C5603AQEscrSTxMv_vw/profile-displayphoto-shrink_800_800/0/1542005279414?e=1620864000&v=beta&t=WeD5n4tmqwFKFng9s6TewRdWiZMmN-1e1BIGfHxH8fE"
+profilePicture = "/images/profile_picture.jpg"
 keywords = ""
-favicon = "static/favicon.ico"
+favicon = ""
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]
