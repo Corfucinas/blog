@@ -151,7 +151,7 @@ disableLatLong = true
   weight = 500
 
 ## Taxonomies for Opengraph
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+# [taxonomies]
+#   category = "categories"
+#   tag = "tags"
+#   series = "series"
