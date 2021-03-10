@@ -134,14 +134,14 @@ disableLatLong = true
 
   [[menu.main]]
   identifier = "contact"
-  name = "Contact information"
+  name = "Contact"
   url = "/contact/"
   weight = 300
 
   [[menu.main]]
   identifier = "resume"
   name = "Resume"
-  url = "./resume/resume.html/"
+  url = "./resume/resume.html"
   weight = 400
 
   [[menu.main]]
