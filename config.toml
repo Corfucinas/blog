@@ -1,12 +1,28 @@
 baseURL = "https://corfucinas.github.io/"
-languageCode = "en"
+# Form Spree Contact Form
+# contactFormAction = "https://formspree.io/f/your-form-hash-here"
 DefaultContentLanguage = "en"
-title = "Pedro Torres' blog"
 description = "Personal website"
-theme = "anatole"
-summarylength = 10
 enableEmoji = true
+enableGitInfo = true
 enableRobotsTXT = true
+# Google Site Verify
+# googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+hasCJKLanguage = true
+indexDateFormat = "Mon, Jan 2, 2006"
+languageCode = "en"
+licence = "MIT"
+licenselink = "https://raw.githubusercontent.com/Corfucinas/blog/master/LICENCE"
+listDateFormat = "Jan 2"
+# Syntax highlighting
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+singleDateFormat = "Mon, Jan 2, 2006"
+summarylength = 10
+theme = "anatole"
+title = "Pedro Torres' blog"
+
 
 # Enable Disqus
 #disqusShortname = ""
@@ -14,96 +30,128 @@ enableRobotsTXT = true
 # Google Analytics
 #googleAnalytics = "UA-123-45"
 
-# Syntax highlighting
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
+[imaging]
+# Default resample filter used for resizing. Default is Box,
+# a simple and fast averaging filter appropriate for downscaling.
+# See https://github.com/disintegration/imaging
+resampleFilter = "Lanczos"
+
+# Default JPEG quality setting. Default is 75.
+quality = 100
+
+# Anchor used when cropping pictures.
+# Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
+# Smart Cropping is content aware and tries to find the best crop for each image.
+# Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+anchor = "smart"
+
+# Default background color.
+# Hugo will preserve transparency for target formats that supports it,
+# but will fall back to this color for JPEG.
+# Expects a standard HEX color string with 3 or 6 digits.
+# See https://www.google.com/search?q=color+picker
+bgColor = "#ffffff"
+
+[imaging.exif]
+ # Regexp matching the fields you want to Exclude from the (massive) set of Exif info
+# available. As we cache this info to disk, this is for performance and
+# disk space reasons more than anything.
+# If you want it all, put ".*" in this config setting.
+# Note that if neither this or ExcludeFields is set, Hugo will return a small
+# default set.
+includeFields = ""
+
+# Regexp matching the Exif fields you want to exclude. This may be easier to use
+# than IncludeFields above, depending on what you want.
+excludeFields = ""
+
+# Hugo extracts the "photo taken" date/time into .Date by default.
+# Set this to true to turn it off.
+disableDate = true
+
+# Hugo extracts the "photo taken where" (GPS latitude and longitude) into
+# .Long and .Lat. Set this to true to turn it off.
+disableLatLong = true
+
+[build]
+  writeStats = true
 
 [params]
-title = "Welcome to my website"
-author = "Pedro Andrés Torres Cruz"
-# description = ""
-displayMode = "light"
-profilePicture = "/images/profile_picture.jpg"
-keywords = ""
-favicon = ""
-# example ["css/custom.css"]
-customCss = []
-# example ["js/custom.js"]
-customJs = []
-mainSections = ["post"]
-images = ["images/site-feature-image.png"]
-doNotLoadAnimations = false
+  # description = ""
+  author = "Pedro Torres"
+  customCss = ["css/homepage.css"]
+  customJs = ["js/profile_picture.js"]
+  displayMode = "light"
+  doNotLoadAnimations = false
+  favicon = ""
+  images = ["images/site-feature-image.png"]
+  keywords = ""
+  mainSections = ["post"]
+  profilePicture = "/images/profile_picture.jpg"
+  title = """In a quest to acquire vast knowledge"""
 
-# Form Spree Contact Form
-#contactFormAction = "https://formspree.io/f/your-form-hash-here"
+  [params.simpleAnalytics]
+    # enable = true
+    # customurl = "https://analytics.example.com"
 
-# Google Site Verify
-#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-indexDateFormat = "Mon, Jan 2, 2006"
-listDateFormat = "Jan 2"
-singleDateFormat = "Mon, Jan 2, 2006"
+  ## Math settings
+  [params.math]
+    enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+    use = "katex"  # options: "katex", "mathjax". default is "katex".
 
-[params.simpleAnalytics]
-# enable = true
-# customurl = "https://analytics.example.com"
+  ## Social links
+  # use 'fab' when brand icons, use 'fas' when standard solid icons.
+  [[params.socialIcons]]
+    icon = "fab fa-linkedin"
+    title = "Linkedin"
+    url = "https://www.linkedin.com/in/pedro-torres-cruz/"
 
-## Math settings
-[params.math]
-enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-use = "katex"  # options: "katex", "mathjax". default is "katex".
+  [[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "GitHub"
+    url = "https://github.com/Corfucinas"
 
-## Social links
-# use 'fab' when brand icons, use 'fas' when standard solid icons.
-[[params.socialIcons]]
-icon = "fab fa-linkedin"
-title = "Linkedin"
-url = "https://www.linkedin.com/in/pedro-torres-cruz/"
-
-[[params.socialIcons]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/Corfucinas"
-
-[[params.socialIcons]]
-icon = "fas fa-envelope"
-title = "e-mail"
-url = "mailto:pedro.torres.cruz@gmail.com"
+  [[params.socialIcons]]
+    icon = "fas fa-envelope"
+    title = "e-mail"
+    url = "mailto:pedro.torres.cruz@gmail.com"
 
 ## Menu items
 
 [menu]
 
   [[menu.main]]
-  name = "Home"
   identifier = "home"
-  weight = 100
+  name = "Home"
   url = "/"
+  weight = 100
 
   [[menu.main]]
-  name = "Posts"
-  weight = 200
   identifier = "posts"
-  url = "/post/"
+  name = "Posts"
+  url = "/posts/"
+  weight = 200
 
   [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
-
-  [[menu.main]]
-  name = "Contact"
-  weight = 400
   identifier = "contact"
+  name = "Contact information"
   url = "/contact/"
+  weight = 300
 
   [[menu.main]]
-  name = "Resume"
-  weight = 500
   identifier = "resume"
-  url = "/resume/"
+  name = "Resume"
+  url = "./resume/resume.html/"
+  weight = 400
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 500
 
 ## Taxonomies for Opengraph
 [taxonomies]
+  category = "categories"
+  tag = "tags"
   series = "series"
