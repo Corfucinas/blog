@@ -79,8 +79,8 @@ disableLatLong = true
 [params]
   # description = ""
   author = "Pedro Torres"
-  customCss = ["css/homepage.css"]
-  customJs = ["js/profile_picture.js"]
+  # customCss = ["css/homepage.css"]
+  # customJs = ["js/profile_picture.js"]
   displayMode = "light"
   doNotLoadAnimations = false
   favicon = ""
