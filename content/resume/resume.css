@@ -83,6 +83,7 @@ body.resume header {
   height: 10.55vh;
   padding: 2.1vh 0;
   border-bottom: 0.24vh solid #f14e40;
+  overflow: hidden;
 }
 body.resume header .intro-container {
   width: 37.5%;
@@ -90,21 +91,21 @@ body.resume header .intro-container {
 }
 body.resume header .intro-container h1 {
   margin: 0;
-  padding: 0.09vh 0 0.8vh 1vh;
-  border-left: 3vh solid #374457;
+  padding: 0.09vh 0 0.8vh 1.21vh;
+  border-left: 0.6vh solid #374457;
   font-size: 2.75vh;
   font-weight: 500;
   line-height: 3vh;
 }
 body.resume header .intro-container p.objective {
-  margin: 0 0 0 4vh;
+  margin: 0 0 0 2vh;
   padding: 2px 0 0;
   font-size: 1.23vh;
 }
 body.resume header .photo-container {
   width: 25%;
   float: left;
-  text-align: justify;
+  text-align: center;
 }
 body.resume header .photo-container .photo {
   -webkit-border-radius: 100px;
@@ -121,34 +122,23 @@ body.resume header .photo-container .photo {
 }
 body.resume header .contact-container {
   width: 37.5%;
-  float: left;
+  float: right;
 }
 body.resume header .contact-container ul {
-  margin: 0 3vh 0 0;
+  margin: 0 1vh 0 0;
   padding: 0;
   float: right;
   font-size: 1.23vh;
   list-style: none;
-  text-align: justify;
+  text-align: right;
 }
 body.resume header .contact-container ul > li {
-  display: block;
+  display: flex;
   margin: 0;
   padding: 0;
   float: right;
   clear: both;
   line-height: 2.5vh;
-}
-body.resume header .contact-container ul > li > i {
-  display: block;
-  position: relative;
-  bottom: -0.8vh;
-  width: 2vh;
-  padding-left: 0.3vh;
-  float: right;
-  color: #f14e40;
-  font-size: 1.5vh;
-  text-align: right;
 }
 body.resume main {
   width: 100%;
@@ -190,7 +180,7 @@ body.resume main ul > li:first-child .heading {
 body.resume main .heading {
   margin: 1.15vh 0 0;
   padding: 0 0 0 1vh;
-  border-left: 3vh solid #f14e40;
+  border-left: 0.6vh solid #f14e40;
 }
 body.resume main .heading span {
   display: block;
