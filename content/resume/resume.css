@@ -290,7 +290,7 @@ body.resume main .skills-and-competences > div.scale .progress-bar > span {
 body.resume main .skills-and-competences .label {
   display: block;
   /* width: 37.5%; */
-  margin: 0;
+  margin: 0 0 0 0.7vh;
   padding: 0 2.5% 0 0;
   float: left;
   text-align: right;
