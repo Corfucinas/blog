@@ -5,7 +5,14 @@ updates:
     schedule:
       interval: weekly
     labels:
-      - dependencies
+      - github-actions
       - dependabot
     commit-message:
       prefix: chore
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: weekly
+    labels:
+      - gitsubmodule
+      - dependabot
