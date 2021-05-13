@@ -1,6 +1,7 @@
 baseURL = "https://corfucinas.github.io/"
 # Form Spree Contact Form
 # contactFormAction = "https://formspree.io/f/your-form-hash-here"
+copyright = "Pedro Torres"
 DefaultContentLanguage = "en"
 description = "Personal website"
 enableEmoji = true
