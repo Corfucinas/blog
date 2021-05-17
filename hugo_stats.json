@@ -29,9 +29,7 @@
       "current",
       "description",
       "fa-2x",
-      "fa-adjust",
       "fa-envelope",
-      "fa-fw",
       "fa-github",
       "fa-linkedin",
       "fab",
@@ -49,8 +47,6 @@
       "post",
       "sidebar",
       "social-links",
-      "theme-switch",
-      "theme-switch-item",
       "title"
     ],
     "ids": [

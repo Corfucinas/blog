@@ -51,6 +51,7 @@ title = "Pedro Torres | blog"
   mainSections = ["post"]
   profilePicture = "/images/profile_picture.jpg"
   title = "In a quest to acquire vast knowledge"
+  disableThemeSwitcher = true
   [params.simpleAnalytics]
     # enable = true
     # customurl = "https://analytics.example.com"
