@@ -22,7 +22,7 @@ pygmentsUseClasses = true
 singleDateFormat = "Mon, Jan 2, 2006"
 summarylength = 10
 theme = "anatole"
-title = "Pedro Torres' blog"
+title = "Pedro Torres | blog"
 
 
 # Enable Disqus
@@ -45,13 +45,12 @@ title = "Pedro Torres' blog"
   # customJs = ["js/profile_picture.js"]
   displayMode = "light"
   doNotLoadAnimations = false
-  favicon = ""
+  enableMediumZoom = true
   images = ["images/site-feature-image.png"]
   keywords = ""
   mainSections = ["post"]
   profilePicture = "/images/profile_picture.jpg"
-  title = """In a quest to acquire vast knowledge"""
-
+  title = "In a quest to acquire vast knowledge"
   [params.simpleAnalytics]
     # enable = true
     # customurl = "https://analytics.example.com"
