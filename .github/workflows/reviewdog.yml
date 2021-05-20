@@ -1,9 +1,12 @@
 name: review_dog
-on: [pull_request]
+on:
+  push:
+    branches:
+      - master
 jobs:
   review_dog_linter:
     name: runner
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.4
       - uses: reviewdog/action-languagetool@v1.5
