@@ -115,7 +115,7 @@ copyright = "| copyright &copy; 2021 Pedro Torres. All Rights Reserved |"
   # Preloader
   [params.preloader]
   enable = true
-  preloader = ".png" # use .png , .svg or .gif format
+  preloader = "images/preloader/web-preloader.svg" # use .png , .svg or .gif format
 
   # search
   [params.search]
