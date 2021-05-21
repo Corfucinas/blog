@@ -1,119 +1,151 @@
+######################## default configuration ####################
 baseURL = "https://corfucinas.github.io/"
-# Form Spree Contact Form
-# contactFormAction = "https://formspree.io/f/your-form-hash-here"
 copyright = "Pedro Torres"
-DefaultContentLanguage = "en"
-description = "Personal website"
+DefaultContentLanguage  = "en"
+disableLanguages        = []
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
-# Google Site Verify
-# googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-hasCJKLanguage = true
-indexDateFormat = "Mon, Jan 2, 2006"
-languageCode = "en"
+languageCode = "en-us"
 licence = "MIT"
 licenselink = "https://raw.githubusercontent.com/Corfucinas/blog/master/LICENCE"
-listDateFormat = "Jan 2"
-# Syntax highlighting
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses = true
-singleDateFormat = "Mon, Jan 2, 2006"
-summarylength = 10
-theme = "anatole"
-title = "Pedro Torres | blog"
+title = "Pedro Torres | Blog"
+theme = "liva-hugo"
+summaryLength = "10"
+paginate = 6
+disqusShortname = ""
+hasCJKLanguage = true
+pluralizeListTitles = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/venobox/venobox.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/venobox/venobox.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
 
 
-# Enable Disqus
-#disqusShortname = ""
-
-# Google Analytics
-#googleAnalytics = "UA-123-45"
-# [params]
-# gtagId = "G-XXXXXXXXXX"
-# ^Checkthis
-
-
-[build]
-  writeStats = true
-
-[params]
-  # description = ""
-  author = "Pedro Torres"
-  # customCss = ["css/homepage.css"]
-  # customJs = ["js/profile_picture.js"]
-  displayMode = "light"
-  doNotLoadAnimations = false
-  enableMediumZoom = true
-  images = ["images/site-feature-image.png"]
-  keywords = ""
-  mainSections = ["post"]
-  profilePicture = "/images/profile_picture.jpg"
-  title = "In a quest to acquire vast knowledge"
-  disableThemeSwitcher = true
-  [params.simpleAnalytics]
-    # enable = true
-    # customurl = "https://analytics.example.com"
-
-  ## Math settings
-  [params.math]
-    enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-    use = "katex"  # options: "katex", "mathjax". default is "katex".
-
-  ## Social links
-  # use 'fab' when brand icons, use 'fas' when standard solid icons.
-  [[params.socialIcons]]
-    icon = "fab fa-linkedin"
-    title = "Linkedin"
-    url = "https://www.linkedin.com/in/pedro-torres-cruz/"
-
-  [[params.socialIcons]]
-    icon = "fab fa-github"
-    title = "GitHub"
-    url = "https://github.com/Corfucinas"
-
-  [[params.socialIcons]]
-    icon = "fas fa-envelope"
-    title = "e-mail"
-    url = "mailto:pedro.torres.cruz@gmail.com"
-
-## Menu items
-
+############################## navigation ###############################
 [menu]
 
+  # main menu
   [[menu.main]]
-  identifier = "home"
-  name = "Home"
-  url = "/"
-  weight = 100
-
-  [[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts/"
-  weight = 200
-
-  [[menu.main]]
-  identifier = "contact"
-  name = "Contact"
-  url = "/contact/"
-  weight = 300
-
-  [[menu.main]]
-  identifier = "resume"
-  name = "Resume"
-  url = "./resume/resume.html"
-  weight = 400
-
-  [[menu.main]]
-  identifier = "about"
   name = "About"
-  url = "/about/"
-  weight = 500
+  URL = "about"
+  weight = 1
 
-## Taxonomies for Opengraph
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+  [[menu.main]]
+  name = "Post"
+  URL = "blog"
+  weight = 2
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 3
+
+  [[menu.main]]
+  name = "Resume"
+  URL = "./resume/resume.html"
+  weight = 4
+
+  # footer menu
+  [[menu.footer]]
+  name = "About"
+  URL = "about"
+  weight = 1
+
+  [[menu.footer]]
+  name = "Post"
+  URL = "blog"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "contact"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Resume"
+  URL = "Resume"
+  weight = 4
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Pedro Torres"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# Contact Information
+# mobile = "0124857985320"
+# email = "demo@email.com"
+location = "Shanghai, China"
+# copyright
+copyright = "| copyright &copy; 2021 Pedro Torres. All Rights Reserved |"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = ".png" # use .png , .svg or .gif format
+
+  # search
+  [params.search]
+  enable = true
+
+############################ news letter ########################
+# [params.newsletter]
+# enable = true
+# title = "Join the newsletter"
+# content = ""
+
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+
+############################# social site ########################
+[[params.social]]
+title = "email"
+icon = "ti-email" # themify icon : https://themify.me/themify-icons
+link = "mailto:pedro.torres.cruz@gmail.com"
+
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/corfucinas"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "https://www.linkedin.com/in/pedro-torres-cruz/"
