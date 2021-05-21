@@ -98,7 +98,7 @@ pluralizeListTitles = false
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/favicon/favicon.ico"
 home = "Home"
 # Meta data
 description = "This is meta description"
@@ -136,16 +136,16 @@ expire_days = 2
 
 ############################# social site ########################
 [[params.social]]
-title = "email"
+title = "Email"
 icon = "ti-email" # themify icon : https://themify.me/themify-icons
 link = "mailto:pedro.torres.cruz@gmail.com"
 
 [[params.social]]
-title = "github"
+title = "Github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
 link = "https://github.com/corfucinas"
 
 [[params.social]]
-title = "linkedin"
+title = "Linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "https://www.linkedin.com/in/pedro-torres-cruz/"

@@ -1,7 +1,7 @@
 ---
 title: "What's the best way to install Python?"
 date: 2021-05-21T15:48:32+08:00
-draft: false
+draft: true
 
 # post thumb
 image: "images/featured-post/python-pyenv.jpg"
