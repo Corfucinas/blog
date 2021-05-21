@@ -2,5 +2,5 @@
 path = public
 url = https://github.com/Corfucinas/corfucinas.github.io.git
 [submodule "themes/liva-hugo"]
-	path = themes/liva-hugo
-	url = https://github.com/Corfucinas/liva-hugo-theme.git
+path = themes/liva-hugo
+url = https://github.com/Corfucinas/liva-hugo-theme.git
