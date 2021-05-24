@@ -92,7 +92,7 @@ pluralizeListTitles = false
 
   [[menu.footer]]
   name = "Resume"
-  URL = "Resume"
+  URL = "./resume/resume.html"
   weight = 4
 
 
