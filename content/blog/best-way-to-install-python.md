@@ -1,10 +1,10 @@
 ---
-title: "What's the best way to install Python?"
+title: "What's the best way to install Python in your computer?"
 date: 2021-05-21T15:48:32+08:00
 draft: true
 
 # post thumb
-image: "images/featured-post/python-pyenv.jpg"
+image: "images/featured-post/pyenv-stylecloud.png"
 
 # meta description
 description: "Learn the best way to install python using pyenv"
