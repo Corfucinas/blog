@@ -215,6 +215,8 @@ file is found in the tree, pyenv will use the global Python version
 specified with "pyenv global".
 ```
 
+---
+
 ### Conclusion
 
 Although they are other options to manage your Python's version in your computer, and many arguments made in favor or against each tool _(and I do encourage all developers to continue experimenting to find what fits within their toolkit)_, the reality is that when it comes to simplicity and time efficiency, pyenv is one of the best tools you can select and everyone should consider.
