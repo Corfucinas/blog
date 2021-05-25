@@ -26,7 +26,7 @@ Sometimes the best way to install a program, is not simply downloading it.
 
 # What is Pyenv?
 
-From their [Github repo](https://github.com/pyenv/pyenv).
+From their [Github repo](https://github.com/pyenv/pyenv "pyenv-github-repo").
 
 > "pyenv lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well."
 
@@ -38,20 +38,20 @@ One of the things any developer will find out when they desire to learn a new sk
 
 ### The easy or the hard way
 
-If you are just starting to learn Python, you will notice there's no such thing as _python_, rather there is _Python2_ or _Python3_. Please note that `Python2`, originally released on October 2000 [reached the end of it\'s life cycle](https://www.python.org/downloads/release/python-2718/) on April 20, 2020. I would suggest to reference knowing that it is no longer supported or currently in development, and new frameworks are also in the process of phasing it out, so there's no point of learning it, except to understand why certain things evolved the way the are now.
+If you are just starting to learn Python, you will notice there's no such thing as _python_, rather there is _Python2_ or _Python3_. Please note that `Python2`, originally released on October 2000 [reached the end of it\'s life cycle](https://www.python.org/downloads/release/python-2718/ "python2-last-release") on April 20, 2020. I would suggest to reference knowing that it is no longer supported or currently in development, and new frameworks are also in the process of phasing it out, so there's no point of learning it, except to understand why certain things evolved the way the are now.
 
 It's important also to understand the way Python releases are made, they follow what is call a `semver` versioning. Under this system, there's a way to be specific about the changes any software release receives following the `major.minor.micro` convention. For example, python3.9.5 is the latest release. But there's also python3.9.4, python3.9.3, python3.9.2 (you see where I'm going).
 
-The reason tools such as pyenv exist, is to be able to grab the latest **feature, performance and security release** in the simplest and fastest way, rather than manually navigating to the [python website](https://www.python.org/) and grabbing an executable, uninstalling your current version (or having to manage both versions at the same time independently) and installing the new version.
+The reason tools such as pyenv exist, is to be able to grab the latest **feature, performance and security release** in the simplest and fastest way, rather than manually navigating to the [python website](https://www.python.org/ "official-python-website") and grabbing an executable, uninstalling your current version (or having to manage both versions at the same time independently) and installing the new version.
 
 In addition, pyenv let's you:
 
 - Let you change the global Python version on a per-user basis.
 - Provide support for per-project Python versions.
 - Allow you to override the Python version with an environment variable.
-- Search commands from multiple versions of Python at a time. This may be helpful to test across Python versions with [tox](https://pypi.org/project/tox/).
+- Search commands from multiple versions of Python at a time. This may be helpful to test across Python versions with [tox](https://pypi.org/project/tox/ "python-tox").
 
-> So intead of having to manage all python installations independently, we have **one tool to manage them all.**
+> So instead of having to manage all python installations independently, we have **one tool to manage them all.**
 
 ### How to install?
 
@@ -65,9 +65,9 @@ libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
 libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 ```
 
-> In case you have another distribution, please install the dependencies [here](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
+> In case you have another distribution, please install the dependencies [here](https://github.com/pyenv/pyenv/wiki#suggested-build-environment "pyenv-suggested-build-environment")
 
-Installer script, you can read more about it [here](https://github.com/pyenv/pyenv-installer)
+Installer script, you can read more about it [here](https://github.com/pyenv/pyenv-installer "pyenv-installer-script")
 
 ```
 $ curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
@@ -82,15 +82,15 @@ $ brew install pyenv
 
 **Windows**
 
-> If you're on Windows, consider using @kirankotari's [pyenv-win](https://github.com/pyenv-win/pyenv-win) fork. (Pyenv does not work in Windows outside the Windows Subsystem for Linux.)
+> If you're on Windows, consider using @kirankotari's [pyenv-win](https://github.com/pyenv-win/pyenv-win "pyenv-for-windows") fork. (Pyenv does not work in Windows outside the Windows Subsystem for Linux.)
 
 If everything completes successfully, you have now installed pyenv.
 
 ### Configuring your shell
 
-After it has been installed, you will be required to add the [following](https://github.com/pyenv/pyenv#basic-github-checkout) to you shell configuration file `(bash, zshrc, fish)`.
+After it has been installed, you will be required to add the [following](https://github.com/pyenv/pyenv#basic-github-checkout "shell-configuration-for-pyenv") to you shell configuration file `(bash, zshrc, fish)`.
 
-Since I'm using the _[friendly interactive shell](https://fishshell.com/)_ (fish), I would need to execute the following code:
+Since I'm using the _[friendly interactive shell](https://fishshell.com/ "the-fish-terminal")_ (fish), I would need to execute the following code:
 
 ```
 $ set -Ux PYENV_ROOT $HOME/.pyenv
