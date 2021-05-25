@@ -4,7 +4,7 @@ date: 2021-05-21T15:48:32+08:00
 draft: false
 
 # post thumb
-image: "images/featured-post/pyenv-stylecloud.png"
+image: "images/post/pyenv-stylecloud.png"
 
 # meta description
 description: "Learn the best way to install python using pyenv"
@@ -19,7 +19,7 @@ tags:
   - "Pyenv"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 Sometimes the best way to install a program, is not simply downloading it.
@@ -90,7 +90,7 @@ If everything completes successfully, you have now installed pyenv.
 
 After it has been installed, you will be required to add the [following](https://github.com/pyenv/pyenv#basic-github-checkout) to you shell configuration file `(bash, zshrc, fish)`.
 
-Since I'm using the [_friendly interactive shell_](https://fishshell.com/) (fish), I would need to execute the following code:
+Since I'm using the _[friendly interactive shell](https://fishshell.com/)_ (fish), I would need to execute the following code:
 
 ```
 $ set -Ux PYENV_ROOT $HOME/.pyenv
