@@ -30,7 +30,7 @@ From their [Github repo](https://github.com/pyenv/pyenv).
 
 > "pyenv lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well."
 
-In simple terms, once you have `pyenv` installed in your computer, you will be able to have access to all the possible **builds and versions** of _CPython_, not just a single version.
+In simple terms, once you have `pyenv` installed in your computer, you will be able to have access to all the possible **builds and releases** of _CPython_, not just a single version.
 
 ### Cool...but why?
 
@@ -38,11 +38,11 @@ One of the things any developer will find out when they desire to learn a new sk
 
 ### The easy or the hard way
 
-If you are just starting to learn Python, you will notice there's no such thing as _python_, rather there is _Python2_ or _Python3_. Please note that `Python2`, originally released on October 2000 [reached the end of it's life cycle](https://www.python.org/downloads/release/python-2718/) on April 20, 2020. I would suggest to reference knowing that it is no longer supported or currently in development, and new frameworks are also in the process of phasing it out, so there's no point of learning it, except to understand why certain things evolved the way the are now.
+If you are just starting to learn Python, you will notice there's no such thing as _python_, rather there is _Python2_ or _Python3_. Please note that `Python2`, originally released on October 2000 [reached the end of it\'s life cycle](https://www.python.org/downloads/release/python-2718/) on April 20, 2020. I would suggest to reference knowing that it is no longer supported or currently in development, and new frameworks are also in the process of phasing it out, so there's no point of learning it, except to understand why certain things evolved the way the are now.
 
 It's important also to understand the way Python releases are made, they follow what is call a `semver` versioning. Under this system, there's a way to be specific about the changes any software release receives following the `major.minor.micro` convention. For example, python3.9.5 is the latest release. But there's also python3.9.4, python3.9.3, python3.9.2 (you see where I'm going).
 
-The reason tools such as pyenv exist, is to be able to grab the latest **feature, performance or security release** in the simplest and fastest way, rather than manually navigating to the [python website](https://www.python.org/) and grabbing an executable, uninstalling your current version (or having to manage both versions at the same time independently) and installing the new version.
+The reason tools such as pyenv exist, is to be able to grab the latest **feature, performance and security release** in the simplest and fastest way, rather than manually navigating to the [python website](https://www.python.org/) and grabbing an executable, uninstalling your current version (or having to manage both versions at the same time independently) and installing the new version.
 
 In addition, pyenv let's you:
 
@@ -51,7 +51,7 @@ In addition, pyenv let's you:
 - Allow you to override the Python version with an environment variable.
 - Search commands from multiple versions of Python at a time. This may be helpful to test across Python versions with [tox](https://pypi.org/project/tox/).
 
-> So intead of having to manage all python installations independently, we have one tool to manage them all.
+> So intead of having to manage all python installations independently, we have **one tool to manage them all.**
 
 ### How to install?
 
