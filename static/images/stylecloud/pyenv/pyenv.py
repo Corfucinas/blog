@@ -3,7 +3,8 @@
 import stylecloud
 
 stylecloud.gen_stylecloud(
-    file_path='static/images/stylecloud/pyenv/pyenv.py',
+    size=730,
+    file_path='./pyenv-readme.txt',
     icon_name='fab fa-python',
     palette='colorbrewer.diverging.Spectral_11',
     background_color='black',

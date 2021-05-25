@@ -3,12 +3,13 @@
 import stylecloud
 
 stylecloud.gen_stylecloud(
-    file_path="static/images/stylecloud/117-vscode-extensions/117-vscode-extensions-readme.txt",
-    icon_name="fab fa-windows",
-    palette="colorbrewer.diverging.Spectral_11",
-    background_color="#00a2ed",
-    gradient="horizontal",
-    output_name="117-extensions-vs-code-stylecloud.png",
+    size=[730, 730],
+    file_path='./117-vscode-extensions-readme.txt',
+    icon_name='fab fa-windows',
+    palette='colorbrewer.diverging.Spectral_11',
+    background_color='#00a2ed',
+    gradient='horizontal',
+    output_name='117-extensions-vs-code-stylecloud.png',
     invert_mask=False,
     max_font_size=200,
 )
