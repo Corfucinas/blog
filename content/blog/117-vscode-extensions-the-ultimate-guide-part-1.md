@@ -26,11 +26,11 @@ They are many guides, but they are all repeating each other
 
 # Things to know before you read
 
-I've seen a lot of guides around the web (specially those published in [Medium](http://medium.com/), they are usually recycling the same extensions over and over again, with the clear distinction that some of them are language specific, or year specific. I've decided to compile all the extensions that I have used into a five-part series. All of these extensions will be useful to you one way or another.
+I've seen a lot of guides around the web (specially those published in the [Medium website](http://medium.com/ "medium-website-homepage"), they are usually recycling the same extensions over and over again, with the clear distinction that some of them are language specific, or year specific. I've decided to compile all the extensions that I have used into a five-part series. All of these extensions will be useful to you one way or another.
 
 Without further ado (and in no specific order of priority nor preference). **Also, you can click their names to navigate to their repo.**. To install, you can write the extension name on VScode _extensions:marketplace_
 
-### [#1 Language-x86-64-assembly](https://github.com/13xforever/x86_64-assembly-vscode)
+### [#1 Language-x86-64-assembly](https://github.com/13xforever/x86_64-assembly-vscode "Language-x86-64-assembly-github")
 
 Visual Studio Code package with x86 and x86_64 assembly syntax support.
 
@@ -51,7 +51,7 @@ This is a TextMate/Sublime/VS Code/Atom bundle providing language support for x8
 
 ---
 
-### [#2 Better-comments](https://github.com/aaron-bond/better-comments)
+### [#2 Better-comments](https://github.com/aaron-bond/better-comments "Better-comments-github")
 
 The Better Comments extension will help you create more human-friendly comments in your code.
 With this extension, you will be able to categorise your annotations into:
@@ -151,7 +151,7 @@ It has a lot of supported languages:
 
 ---
 
-### [#3 Codesnap](https://github.com/kufii/CodeSnap)
+### [#3 Codesnap](https://github.com/kufii/CodeSnap "codesnap-github")
 
 Take beautiful screenshots of your code in VS Code!
 
@@ -166,7 +166,7 @@ Take beautiful screenshots of your code in VS Code!
 
 ---
 
-### [#4 Snazzy plus](https://github.com/akarlsten/snazzy-plus)
+### [#4 Snazzy plus](https://github.com/akarlsten/snazzy-plus "Snazzy-plus-github")
 
 A VS Code theme based on hyper-snazzy and vscode-snazzy-operator.
 
@@ -183,7 +183,7 @@ Changes compared to Aaron Thomas version are:
 
 ---
 
-### [#5 Bookmarks](https://github.com/alefragnani/vscode-bookmarks)
+### [#5 Bookmarks](https://github.com/alefragnani/vscode-bookmarks "Bookmarks-github")
 
 It helps you to navigate in your code, moving between important positions easily and quickly. No more need to search for code. It also supports a set of selection commands, which allows you to select bookmarked lines and regions between bookmarked lines. It's really useful for log file analysis.
 
@@ -205,7 +205,7 @@ Here are some of the features that Bookmarks provides:
 
 ---
 
-### [#6 Gitignore](https://github.com/CodeZombieCH/vscode-gitignore)
+### [#6 Gitignore](https://github.com/CodeZombieCH/vscode-gitignore "Gitignore-github")
 
 A extension for Visual Studio Code that assists you in working with .gitignore files.
 
@@ -216,7 +216,7 @@ After that, just select the your language, check out below how the _python_ `.gi
 
 ---
 
-### [#7 Emojisense](https://github.com/mattbierner/vscode-emojisense)
+### [#7 Emojisense](https://github.com/mattbierner/vscode-emojisense "Emojisense-github")
 
 Adds suggestions and autocomplete for emoji to VS Code.
 
@@ -236,7 +236,7 @@ Forget about looking up the _[unicode](https://www.unicode.org/emoji/charts/full
 
 ---
 
-### [#8 Sourcery](https://github.com/sourcery-ai/sourcery-vscode)
+### [#8 Sourcery](https://github.com/sourcery-ai/sourcery-vscode "Sourcery-github")
 
 This is a great extension if you're a python developer.
 
@@ -252,7 +252,7 @@ Sourcery also provides quality metrics for every function you write (plus warnin
 
 ---
 
-### [#9 Markdown All in One](https://github.com/yzhang-gh/vscode-markdown)
+### [#9 Markdown All in One](https://github.com/yzhang-gh/vscode-markdown "markdown-github")
 
 All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more).
 
@@ -272,7 +272,7 @@ With this extension you will have:
 
 ---
 
-### [#10 Trailing spaces](https://github.com/shardulm94/vscode-trailingspaces)
+### [#10 Trailing spaces](https://github.com/shardulm94/vscode-trailingspaces "trailing-spaces-repo")
 
 A VS Code extension that allows you to…
 
@@ -286,6 +286,6 @@ This extension is a port of the popular Sublime Text plugin Trailing Spaces.
 
 ---
 
-#### Thanks for reading the first part!
+#### Thanks for reading the first part
 
 Part 2 of this series will be finished by the time you read the first part, go check it out!
