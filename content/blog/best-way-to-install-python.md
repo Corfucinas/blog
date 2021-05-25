@@ -22,7 +22,7 @@ tags:
 type: "featured"
 ---
 
-Sometimes the best way to install a program, is not downloading it.
+Sometimes the best way to install a program, is not simply downloading it.
 
 # What is Pyenv?
 
