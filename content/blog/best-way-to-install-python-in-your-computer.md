@@ -65,9 +65,9 @@ libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
 libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 ```
 
-> In case you have another distribution, please install the dependencies [here](https://github.com/pyenv/pyenv/wiki#suggested-build-environment "pyenv-suggested-build-environment")
+> In case you have another distribution, [please install the dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment "pyenv-suggested-build-environment")
 
-Installer script, you can read more about it [here](https://github.com/pyenv/pyenv-installer "pyenv-installer-script")
+Execute the following in order to use the installer script, [you can read more about it here](https://github.com/pyenv/pyenv-installer "pyenv-installer-script")
 
 ```
 $ curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
