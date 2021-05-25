@@ -235,3 +235,57 @@ Forget about looking up the _[unicode](https://www.unicode.org/emoji/charts/full
 ![emojisense](../../images/post/117-vscode-extensions/emojisense.gif "emojisense")
 
 ---
+
+### [#8 Sourcery](https://github.com/sourcery-ai/sourcery-vscode)
+
+This is a great extension if you're a python developer.
+
+> Sourcery is your personal coding assistant that helps you write better, cleaner, Python code. It suggests refactoring on the fly to > instantly improve your code.
+
+Sourcery runs in the background whenever you're working on Python files. Keep an eye out for sections of your code underlined in blue - that means Sourcery has a suggestion!
+
+Hover over a Sourcery suggestion to see a description of what Sourcery wants you to change along with the diff of the proposed changes. Then either use the quickfix menu (Ctrl+. or Cmd+. for most people) or click on the lightbulb icon to bring up the Sourcery menu and choose to accept or reject the changes.
+
+Sourcery also provides quality metrics for every function you write (plus warnings for really bad code).
+
+![sourcery](../../images/post/117-vscode-extensions/sourcery-python.gif "sourcery")
+
+---
+
+### [#9 Markdown All in One](https://github.com/yzhang-gh/vscode-markdown)
+
+All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more).
+
+With this extension you will have:
+
+- Keyboard shortcuts
+- Table of contents
+- List editing
+- Print Markdown to HTML
+- Github Flavored Markdown
+- Math
+- Auto completions
+
+> This is particularly useful is you're into front-end development. This website is written using **[Hugo](https://gohugo.io/)**, one of the most popular open-source static site generators, the content you are reading right now it's writen in markdown, [take a look!](https://raw.githubusercontent.com/Corfucinas/blog/master/content/blog/117-vscode-extensions-the-ultimate-guide-part-1.md).
+
+![Markdown-All-in-One](../../images/post/117-vscode-extensions/markdown-all-in-one.gif "Markdown-All-in-One]")
+
+---
+
+### [#10 Trailing spaces](https://github.com/shardulm94/vscode-trailingspaces)
+
+A VS Code extension that allows you to…
+
+highlight trailing spaces and delete them in a flash!
+
+This extension is a port of the popular Sublime Text plugin Trailing Spaces.
+
+> VS Code provides a way to automate deletion of trailing spaces by using the Trim Trailing Whitespace command. Depending on your settings, it may be more handy to just highlight them and/or delete them by hand, at any time. This plugin provides just that, and a lot of options to fine-tune the way you want to decimate trailing spaces.
+
+![trailingspaces](../../images/post/117-vscode-extensions/trailling-spaces.png "trailingspaces]")
+
+---
+
+#### Thanks for reading the first part!
+
+Part 2 of this series will be finished by the time you read the first part, go check it out!
