@@ -36,6 +36,7 @@ body.resume {
   margin: 0;
   padding: 0;
   font-family: Ubuntu, Helvetica, sans-serif;
+  font-display: swap;
 }
 
 body.resume header {
