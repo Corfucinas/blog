@@ -1,8 +1,0 @@
-/* override styles when printing */
-@media print {
-  html {
-    zoom: unset;
-    -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
-    color-adjust: exact !important; /*Firefox*/
-  }
-}
