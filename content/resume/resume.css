@@ -7,7 +7,7 @@
   }
 }
 
-@media not screen and (max-width: 768px) {
+@media not screen and (max-width: 767px) {
   html {
     zoom: 2.1;
   }
