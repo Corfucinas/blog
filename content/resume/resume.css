@@ -151,14 +151,14 @@ body.resume main .heading span.super-left {
   width: 50%;
   float: left;
   color: #f14e40;
-  font-size: 1.2vh;
+  font-size: 1.23vh;
   text-align: left;
 }
 body.resume main .heading span.super-right {
   width: 50%;
   float: right;
   color: #f14e40;
-  font-size: 1.2vh;
+  font-size: 1.23vh;
   text-align: right;
 }
 body.resume main .heading span.title {
@@ -190,7 +190,7 @@ body.resume main .body span.title {
 body.resume main .body p {
   margin: 0;
   padding: 0;
-  font-size: 1.18vh;
+  font-size: 1.23vh;
   text-align: justify;
 }
 
@@ -223,7 +223,7 @@ body.resume main .skills-and-competences > div.scale .label {
   margin: 0;
   padding: 0 2.5% 0 0;
   float: left;
-  font-size: 1vh;
+  font-size: 1.23vh;
   text-align: right;
 }
 body.resume main .skills-and-competences > div.scale .progress-bar {
@@ -256,7 +256,7 @@ body.resume main .skills-and-competences .label {
   padding: 0 2.5% 0 0;
   float: left;
   text-align: right;
-  font-size: 1.18vh;
+  font-size: 1.23vh;
 }
 body.resume main .skills-and-competences .progress-bar {
   -moz-box-sizing: border-box;
@@ -283,16 +283,16 @@ body.resume main .achievements-and-certificates > div {
 body.resume main .achievements-and-certificates > div .heading {
   margin: 0;
   padding: 0;
-  font-size: 1.18vh;
+  font-size: 1.23vh;
 }
 body.resume main .achievements-and-certificates > div .body {
   margin: 0;
   padding: 0;
-  font-size: 1.18vh;
+  font-size: 1.23vh;
 }
 body.resume main .languages > div {
   margin-bottom: 1vh;
-  font-size: 1.18vh;
+  font-size: 1.23vh;
 }
 body.resume main .languages > div span {
   display: block;
@@ -300,7 +300,7 @@ body.resume main .languages > div span {
   width: 33%;
 }
 body.resume main .interests {
-  font-size: 1.18vh;
+  font-size: 1.23vh;
   line-height: 1.5vh;
   text-align: left;
 }
@@ -309,5 +309,5 @@ body.resume main .interests span {
 }
 
 body {
-  font-size: 1.18vh;
+  font-size: 1.23vh;
 }
