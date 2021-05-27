@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://corfucinas.github.io/"
+baseURL = "https://absolutearray.com/"
 copyright = "Pedro Torres"
 DefaultContentLanguage  = "en"
 disableLanguages        = []
@@ -9,7 +9,7 @@ enableRobotsTXT = true
 languageCode = "en-us"
 licence = "MIT"
 licenselink = "https://raw.githubusercontent.com/Corfucinas/blog/master/LICENCE"
-title = "Pedro Torres | Blog"
+title = "In a quest for vast knowledge"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
