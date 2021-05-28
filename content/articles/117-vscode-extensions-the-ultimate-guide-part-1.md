@@ -22,7 +22,7 @@ tags:
 type: "featured"
 ---
 
-They are many guides, but they are all repeating each other
+They are many guides out there, but they are all repeating each other
 
 # Things to know before you read
 
