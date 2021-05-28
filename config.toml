@@ -60,8 +60,8 @@ pluralizeListTitles = false
   weight = 1
 
   [[menu.main]]
-  name = "Post"
-  URL = "blog"
+  name = "Articles"
+  URL = "articles"
   weight = 2
 
   [[menu.main]]
@@ -81,8 +81,8 @@ pluralizeListTitles = false
   weight = 1
 
   [[menu.footer]]
-  name = "Post"
-  URL = "blog"
+  name = "Articles"
+  URL = "articles"
   weight = 2
 
   [[menu.footer]]
