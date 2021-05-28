@@ -26,9 +26,10 @@ They are many guides, but they are all repeating each other
 
 # Things to know before you read
 
-I've seen a lot of guides around the web (specially those published in the [Medium website](http://medium.com/ "medium-website-homepage"), they are usually recycling the same extensions over and over again, with the clear distinction that some of them are language specific, or year specific. I've decided to compile all the extensions that I have used into a five-part series. All of these extensions will be useful to you one way or another.
+I've seen a lot of guides around the web (specially those published in the [Medium website](http://medium.com/ "medium-website-homepage"), they are usually recycling the same extensions over and over again, with the clear distinction that some of them are specific to a programming language or a certain task. I've decided to compile all the extensions that I have used into a five-part series. All of these extensions will be useful to you one way or another, and are not limited to a language or task. They are good extensions that will make a lot of aspects developing a better experience.
 
-Without further ado (and in no specific order of priority nor preference). **Also, you can click their names to navigate to their repo.**. To install, you can write the extension name on VScode _extensions:marketplace_
+Without further ado (and in no specific order of priority nor preference), here's the _ultimate VScode guide extension_.
+**Also, you can click their names to navigate to their repo.**. To install, you can write the extension name on VScode _extensions:marketplace_
 
 ### [#1 Language-x86-64-assembly](https://github.com/13xforever/x86_64-assembly-vscode "Language-x86-64-assembly-github")
 
@@ -54,7 +55,7 @@ This is a TextMate/Sublime/VS Code/Atom bundle providing language support for x8
 ### [#2 Better-comments](https://github.com/aaron-bond/better-comments "Better-comments-github")
 
 The Better Comments extension will help you create more human-friendly comments in your code.
-With this extension, you will be able to categorise your annotations into:
+With this extension, you will be able to categorize your annotations into:
 
 - Alerts
 - Queries
@@ -155,7 +156,7 @@ It has a lot of supported languages:
 
 Take beautiful screenshots of your code in VS Code!
 
-#### Features:
+#### Features
 
 - Quickly save screenshots of your code
 - Copy screenshots to your clipboard
@@ -177,7 +178,7 @@ Changes compared to Aaron Thomas version are:
 - Alternate version with italics for keywords like "this" and "class" for use with Operator/Dank Mono.
 - Alternate darker version that I've started preferring on my brighter laptop screen
 
-> This is also my favorite theme for VScode, having spent a lot of time with the Dracula theme
+> This is also my favorite theme for VScode, after having spent a lot of time with the Dracula theme
 
 ![snazzy-plus-dark](../../images/post/117-vscode-extensions/snazzy-plus-dark.png "snazzy-plus-dark")
 
@@ -199,7 +200,7 @@ Here are some of the features that Bookmarks provides:
 - A dedicated Side Bar
 ```
 
-**It is quite useful to navigate your code as navigate your favorite book**
+**Navigate your code as navigate your favorite book**
 
 ![bookmarks](../../images/post/117-vscode-extensions/bookmarks-list-from-all-files.gif "bookmarks")
 
@@ -210,7 +211,7 @@ Here are some of the features that Bookmarks provides:
 A extension for Visual Studio Code that assists you in working with .gitignore files.
 
 Save precious development time by just running `Ctrl+Shift+P or F1` and type `Add gitignore`.
-After that, just select the your language, check out below how the _python_ `.gitignore` looks.
+After that, just select the your language. Check out below how the _python_ `.gitignore` looks.
 
 ![gitignore](../../images/post/117-vscode-extensions/gitignore.png "gitignore")
 
@@ -220,17 +221,17 @@ After that, just select the your language, check out below how the _python_ `.gi
 
 Adds suggestions and autocomplete for emoji to VS Code.
 
-- Quickly insert emoji using the : smile : syntax supported by Github and many other sites
+- Quickly insert emoji using the : emoji : syntax supported by Github and many other sites
 - Insert emoji markup by typing ::
 - Enable and control emoji completion settings per language
-- See emoji previews of : smile : style markup inline
+- See emoji previews of : emoji : style markup inline
   -Can be enabled in VS Code's SCM (git) input box.
   -Provide an emoji picker to select and insert an emoji in the editor or terminal. To access the picker, run the Emojisense: Pick an emoji
   command, or use the default keybindings
 
 > Check out the list of supported **[emojis](https://www.webpagefx.com/tools/emoji-cheat-sheet/)**
 
-Forget about looking up the _[unicode](https://www.unicode.org/emoji/charts/full-emoji-list.html)_ for your emoji
+Forget about looking up the _[unicode](https://www.unicode.org/emoji/charts/full-emoji-list.html)_ for your emoji ever again
 
 ![emojisense](../../images/post/117-vscode-extensions/emojisense.gif "emojisense")
 
@@ -240,7 +241,7 @@ Forget about looking up the _[unicode](https://www.unicode.org/emoji/charts/full
 
 This is a great extension if you're a python developer.
 
-> Sourcery is your personal coding assistant that helps you write better, cleaner, Python code. It suggests refactoring on the fly to > instantly improve your code.
+> Sourcery is your personal coding assistant that helps you write better, cleaner, Python code. It suggests refactoring on the fly to instantly improve your code.
 
 Sourcery runs in the background whenever you're working on Python files. Keep an eye out for sections of your code underlined in blue - that means Sourcery has a suggestion!
 
@@ -266,7 +267,7 @@ With this extension you will have:
 - Math
 - Auto completions
 
-> This is particularly useful is you're into front-end development. This website is written using **[Hugo](https://gohugo.io/)**, one of the most popular open-source static site generators, the content you are reading right now it's writen in markdown, [take a look!](https://raw.githubusercontent.com/Corfucinas/blog/master/content/blog/117-vscode-extensions-the-ultimate-guide-part-1.md).
+> This is particularly useful is you're into front-end development. This website is written using **[Hugo](https://gohugo.io/)**, one of the most popular open-source static site generators, the content you are reading right now it's written in markdown, [take a look!](https://raw.githubusercontent.com/Corfucinas/blog/master/content/blog/117-vscode-extensions-the-ultimate-guide-part-1.md).
 
 ![Markdown-All-in-One](../../images/post/117-vscode-extensions/markdown-all-in-one.gif "Markdown-All-in-One]")
 
@@ -282,10 +283,11 @@ This extension is a port of the popular Sublime Text plugin Trailing Spaces.
 
 > VS Code provides a way to automate deletion of trailing spaces by using the Trim Trailing Whitespace command. Depending on your settings, it may be more handy to just highlight them and/or delete them by hand, at any time. This plugin provides just that, and a lot of options to fine-tune the way you want to decimate trailing spaces.
 
-![trailingspaces](../../images/post/117-vscode-extensions/trailling-spaces.png "trailingspaces]")
+![trailingspaces](../../images/post/117-vscode-extensions/trailing-spaces.png "trailingspaces]")
 
 ---
 
+<!--
 #### Thanks for reading the first part
 
-Part 2 of this series will be finished by the time you read the first part, go check it out!
+Part 2 of this series will be finished by the time you read the first part, go check it out! -->

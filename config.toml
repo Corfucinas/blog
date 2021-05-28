@@ -110,7 +110,7 @@ googleAnalitycsID = "G-WHSXXMY8EX"
 # email = "demo@email.com"
 location = "Shanghai, China"
 # copyright
-copyright = "| copyright &copy; 2021 Pedro Torres. All Rights Reserved |"
+copyright = "| copyright &copy; 2021 Absolute Array. All Rights Reserved |"
 
   # Preloader
   [params.preloader]
