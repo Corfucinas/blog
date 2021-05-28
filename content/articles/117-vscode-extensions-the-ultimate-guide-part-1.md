@@ -1,7 +1,7 @@
 ---
 title: "117 Vscode Extensions - One guide to rule them all (Part 1/5)"
 date: 2021-05-24T16:09:41+08:00
-draft: true
+draft: false
 
 # post thumb
 image: "images/featured-post/117-extensions-vs-code-stylecloud.png"
