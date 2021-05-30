@@ -18,6 +18,11 @@ hasCJKLanguage = true
 pluralizeListTitles = false
 disableHugoGeneratorInject = true
 
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
@@ -105,7 +110,7 @@ home = "Home"
 description = "This is meta description"
 author = "Pedro Torres"
 # Google Analitycs
-googleAnalitycsID = "G-WHSXXMY8EX"
+googleAnalytics = "G-WHSXXMY8EX"
 # Contact Information
 # mobile = "0124857985320"
 # email = "demo@email.com"
