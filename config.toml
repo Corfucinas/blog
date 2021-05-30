@@ -16,6 +16,7 @@ paginate = 6
 disqusShortname = ""
 hasCJKLanguage = true
 pluralizeListTitles = false
+disableHugoGeneratorInject = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
