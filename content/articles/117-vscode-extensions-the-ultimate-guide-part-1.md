@@ -24,9 +24,9 @@ type: "featured"
 
 They are many guides out there, but they are all repeating each other
 
-# Things to know before you read
+# Before you read
 
-I've seen a lot of guides around the web (specially those published in the [Medium website](http://medium.com/ "medium-website-homepage"), they are usually recycling the same extensions over and over again, with the clear distinction that some of them are specific to a programming language or a certain task. I've decided to compile all the extensions that I have used into a five-part series. All of these extensions will be useful to you one way or another, and are not limited to a language or task. They are good extensions that will make a lot of aspects developing a better experience.
+I've seen a lot of guides around the web (specially those published in the [Medium website](http://medium.com/ "medium-website-homepage"), they are usually recycling the same extensions over and over again, with the clear distinction that some of them are specific to a programming language or a certain task. I've decided to compile all the extensions that I have used for a task or that I find useful for anyone into a five-part series. All of these extensions will be useful to you one way or another, and are not limited to a language or task. They are good extensions that will make a lot of aspects developing a better experience.
 
 Without further ado (and in no specific order of priority nor preference), here's the _ultimate VScode guide extension_.
 **Also, you can click their names to navigate to their repo.**. To install, you can write the extension name on VScode _extensions:marketplace_
