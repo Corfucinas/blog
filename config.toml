@@ -107,7 +107,7 @@ disableHugoGeneratorInject = true
 logo = "images/favicon/favicon.ico"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "Dedicated content for improving your programming abilities and learning new skills"
 author = "Pedro Torres"
 # Google Analitycs
 googleAnalytics = "G-WHSXXMY8EX"
