@@ -113,7 +113,7 @@ author = "Pedro Torres"
 googleAnalytics = "G-WHSXXMY8EX"
 # Contact Information
 # mobile = "0124857985320"
-# email = "demo@email.com"
+email = "absolutearray@protonmail.ch"
 location = "Shanghai, China"
 # copyright
 copyright = "| copyright &copy; 2021 Absolute Array. All Rights Reserved |"
@@ -144,7 +144,7 @@ expire_days = 2
 [[params.social]]
 title = "Email"
 icon = "ti-email" # themify icon : https://themify.me/themify-icons
-link = "mailto:pedro.torres.cruz@gmail.com"
+link = "mailto:absolutearray@protonmail.ch"
 
 [[params.social]]
 title = "Github"
