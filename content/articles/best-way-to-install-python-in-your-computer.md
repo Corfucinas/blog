@@ -162,7 +162,7 @@ See `pyenv help <command>' for information on a specific command.
 For full documentation, see: https://github.com/pyenv/pyenv#readme
 ```
 
-It's best to read all the commands so that you are familiar, but for now let's install python on your system.
+It's best to read all the commands so that you are familiar with pyenv, but for now let's install python on your system.
 
 ```
 $ pyenv install -l
