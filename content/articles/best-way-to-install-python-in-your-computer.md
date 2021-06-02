@@ -1,4 +1,5 @@
 ---
+author: Pedro Torres
 title: "What's the best way to install Python in your computer?"
 date: 2021-05-21T15:48:32+08:00
 draft: false
@@ -20,6 +21,9 @@ tags:
 
 # post type
 type: "post"
+
+# next article
+next: https://gohugo.io/variables/page/
 ---
 
 Sometimes the best way to install a program, is not simply downloading it.

@@ -12,11 +12,18 @@ licenselink = "https://raw.githubusercontent.com/Corfucinas/blog/master/LICENCE"
 title = "In a quest for vast knowledge"
 theme = "liva-hugo"
 summaryLength = "10"
-paginate = 6
+paginate = 12
 disqusShortname = ""
 hasCJKLanguage = true
 pluralizeListTitles = false
 disableHugoGeneratorInject = true
+canonifyURLs = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 1
 
 [sitemap]
   changefreq = "weekly"
@@ -117,6 +124,9 @@ email = "absolutearray@protonmail.ch"
 location = "Shanghai, China"
 # copyright
 copyright = "| copyright &copy; 2021 Absolute Array. All Rights Reserved |"
+github = "https://github.com/Corfucinas/"
+og_image = "images/favicon/apple-touch-icon-180x180.png"
+sitename = "Absolute Array"
 
   # Preloader
   [params.preloader]
