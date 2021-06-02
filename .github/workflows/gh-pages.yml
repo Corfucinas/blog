@@ -34,6 +34,6 @@ jobs:
           personal_token: ${{ secrets.HUGO_TOKEN }}
           external_repository: corfucinas/corfucinas.github.io
           publish_branch: master
-          keep_files: true
+          keep_files: false
           publish_dir: ./public
           cname: absolutearray.com
