@@ -125,7 +125,7 @@ location = "Shanghai, China"
 # copyright
 copyright = "| copyright &copy; 2021 Absolute Array. All Rights Reserved |"
 github = "https://github.com/Corfucinas/"
-og_image = "images/favicon/apple-touch-icon-180x180.png"
+og_image = "images/favicon/android-chrome-512x512.png"
 sitename = "Absolute Array"
 
   # Preloader
