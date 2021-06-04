@@ -1,0 +1,12 @@
+{
+  "name": "absolute-array",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-shell": "^0.8.0",
+    "workbox-build": "^6.1.5"
+  }
+}
