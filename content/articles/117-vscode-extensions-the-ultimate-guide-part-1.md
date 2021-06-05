@@ -286,15 +286,13 @@ With this extension you will have:
 
 ### [#10 Trailing spaces](https://github.com/shardulm94/vscode-trailingspaces "trailing-spaces-repo")
 
-A VS Code extension that allows you to…
-
-highlight trailing spaces and delete them in a flash!
+A VS Code extension that allows you to highlight trailing spaces and delete them in a flash!
 
 This extension is a port of the popular Sublime Text plugin Trailing Spaces.
 
 > VS Code provides a way to automate deletion of trailing spaces by using the Trim Trailing Whitespace command. Depending on your settings, it may be more handy to just highlight them and/or delete them by hand, at any time. This plugin provides just that, and a lot of options to fine-tune the way you want to decimate trailing spaces.
 
-![trailingspaces](../../images/post/117-vscode-extensions/trailing-spaces.png "trailingspaces]")
+![trailingspaces](../../images/post/117-vscode-extensions/trailing-spaces.png "trailingspaces")
 
 ---
 

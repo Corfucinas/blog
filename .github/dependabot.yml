@@ -4,17 +4,43 @@ updates:
     directory: "/"
     schedule:
       interval: weekly
+    open-pull-requests-limit: 99
+    target-branch: master
     labels:
       - github-actions
       - dependabot
     commit-message:
-      prefix: chore
+      prefix: bump
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
       interval: weekly
+    open-pull-requests-limit: 99
+    target-branch: master
     commit-message:
-      prefix: ci
+      prefix: bump
     labels:
       - gitsubmodule
       - dependabot
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 99
+    target-branch: master
+    labels:
+      - dependencies
+      - dependabot
+    commit-message:
+      prefix: npm bump
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 99
+    target-branch: master
+    labels:
+      - dependencies
+      - dependabot
+    commit-message:
+      prefix: bump
