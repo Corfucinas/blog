@@ -18,6 +18,16 @@ tags:
   - "Toolkit"
   - "VScode extensions"
   - "Microsoft"
+  - "x86_64-assembly-vscode"
+  - "Better-comments"
+  - "Codesnap"
+  - "Snazzy plus"
+  - "Bookmarks"
+  - "Gitignore"
+  - "Emojisense"
+  - "Sourcery"
+  - "Markdown all in one"
+  - "Trailing spaces"
 
 # post type
 type: "featured"
