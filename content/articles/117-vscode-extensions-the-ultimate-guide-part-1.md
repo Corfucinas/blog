@@ -1,36 +1,36 @@
 ---
 author: Pedro Torres
-title: "117 Vscode Extensions - One guide to rule them all (Part 1/5)"
+title: 117 Vscode Extensions - One guide to rule them all (Part 1/5)
 date: 2021-05-24T16:09:41+08:00
 draft: false
 
 # post thumb
-image: "images/featured-post/117-extensions-vs-code-stylecloud.png"
+image: images/featured-post/117-extensions-vs-code-stylecloud.png
 
 # meta description
-description: "The most comprehensive guide for VScode extensions"
+description: The most comprehensive guide for VScode extensions
 
 # taxonomies
 categories:
-  - "Computer and programming"
+  - Computer and programming
 tags:
-  - "IDE"
-  - "Toolkit"
-  - "VScode extensions"
-  - "Microsoft"
-  - "x86_64-assembly-vscode"
-  - "Better-comments"
-  - "Codesnap"
-  - "Snazzy plus"
-  - "Bookmarks"
-  - "Gitignore"
-  - "Emojisense"
-  - "Sourcery"
-  - "Markdown all in one"
-  - "Trailing spaces"
+  - IDE
+  - Toolkit
+  - VScode extensions
+  - Microsoft
+  - x86_64-assembly-vscode
+  - Better-comments
+  - Codesnap
+  - Snazzy plus
+  - Bookmarks
+  - Gitignore
+  - Emojisense
+  - Sourcery
+  - Markdown all in one
+  - Trailing spaces
 
 # post type
-type: "featured"
+type: featured
 ---
 
 They are many guides out there, but they are all repeating each other
@@ -59,7 +59,7 @@ This is a TextMate/Sublime/VS Code/Atom bundle providing language support for x8
   - VMX/SMX/NPX/SGX
   - other AMD/Cyrix/VIA and planned future Intel extensions
 
-![language-x86-64-assembly](../../images/post/117-vscode-extensions/language-x86-64-assembly.png "language-x86-64-assembly")
+![language-x86-64-assembly](../../images/post/117-vscode-extensions/part-1/language-x86-64-assembly.png "language-x86-64-assembly")
 
 ---
 
@@ -159,7 +159,7 @@ It has a lot of supported languages:
 * YAML
 ```
 
-![better-comments](../../images/post/117-vscode-extensions/better-comments.png "better-comments")
+![better-comments](../../images/post/117-vscode-extensions/part-1/better-comments.png "better-comments")
 
 ---
 
@@ -174,7 +174,7 @@ Take beautiful screenshots of your code in VS Code!
 - Show line numbers
 - Many other configuration options
 
-![code-snap](../../images/post/117-vscode-extensions/codesnap.png "codesnap")
+![code-snap](../../images/post/117-vscode-extensions/part-1/codesnap.png "codesnap")
 
 ---
 
@@ -191,7 +191,7 @@ Changes compared to Aaron Thomas version are:
 
 > This is also my favorite theme for VScode, after having spent a lot of time with the Dracula theme
 
-![snazzy-plus-dark](../../images/post/117-vscode-extensions/snazzy-plus-dark.png "snazzy-plus-dark")
+![snazzy-plus-dark](../../images/post/117-vscode-extensions/part-1/snazzy-plus-dark.png "snazzy-plus-dark")
 
 ---
 
@@ -213,7 +213,7 @@ Here are some of the features that Bookmarks provides:
 
 **Navigate your code as navigate your favorite book**
 
-![bookmarks](../../images/post/117-vscode-extensions/bookmarks-list-from-all-files.gif "bookmarks")
+![bookmarks](../../images/post/117-vscode-extensions/part-1/bookmarks-list-from-all-files.gif "bookmarks")
 
 ---
 
@@ -224,7 +224,7 @@ A extension for Visual Studio Code that assists you in working with .gitignore f
 Save precious development time by just running `Ctrl+Shift+P or F1` and type `Add gitignore`.
 After that, just select the your language. Check out below how the _python_ `.gitignore` looks.
 
-![gitignore](../../images/post/117-vscode-extensions/gitignore.png "gitignore")
+![gitignore](../../images/post/117-vscode-extensions/part-1/gitignore.png "gitignore")
 
 ---
 
@@ -244,7 +244,7 @@ Adds suggestions and autocomplete for emoji to VS Code.
 
 Forget about looking up the _[unicode](https://www.unicode.org/emoji/charts/full-emoji-list.html)_ for your emoji ever again
 
-![emojisense](../../images/post/117-vscode-extensions/emojisense.gif "emojisense")
+![emojisense](../../images/post/117-vscode-extensions/part-1/emojisense.gif "emojisense")
 
 ---
 
@@ -260,7 +260,7 @@ Hover over a Sourcery suggestion to see a description of what Sourcery wants you
 
 Sourcery also provides quality metrics for every function you write (plus warnings for really bad code).
 
-![sourcery](../../images/post/117-vscode-extensions/sourcery-python.gif "sourcery")
+![sourcery](../../images/post/117-vscode-extensions/part-1/sourcery-python.gif "sourcery")
 
 ---
 
@@ -280,7 +280,7 @@ With this extension you will have:
 
 > This is particularly useful is you're into front-end development. This website is written using **[Hugo](https://gohugo.io/)**, one of the most popular open-source static site generators, the content you are reading right now it's written in markdown, [take a look!](https://raw.githubusercontent.com/Corfucinas/blog/master/content/blog/117-vscode-extensions-the-ultimate-guide-part-1.md).
 
-![Markdown-All-in-One](../../images/post/117-vscode-extensions/markdown-all-in-one.gif "Markdown-All-in-One]")
+![Markdown-All-in-One](../../images/post/117-vscode-extensions/part-1/markdown-all-in-one.gif "Markdown-All-in-One]")
 
 ---
 
@@ -292,11 +292,10 @@ This extension is a port of the popular Sublime Text plugin Trailing Spaces.
 
 > VS Code provides a way to automate deletion of trailing spaces by using the Trim Trailing Whitespace command. Depending on your settings, it may be more handy to just highlight them and/or delete them by hand, at any time. This plugin provides just that, and a lot of options to fine-tune the way you want to decimate trailing spaces.
 
-![trailingspaces](../../images/post/117-vscode-extensions/trailing-spaces.png "trailingspaces")
+![trailingspaces](../../images/post/117-vscode-extensions/part-1/trailing-spaces.png "trailingspaces")
 
 ---
 
-<!--
 #### Thanks for reading the first part
 
-Part 2 of this series will be finished by the time you read the first part, go check it out! -->
+[You can read Part 2 of this series here](../../articles/117-vscode-extensions-the-ultimate-guide-part-2/index.html "part 2 of the series")

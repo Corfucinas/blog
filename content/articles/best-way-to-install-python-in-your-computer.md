@@ -1,29 +1,31 @@
 ---
 author: Pedro Torres
-title: "What's the best way to install Python in your computer?"
+title: What's the best way to install Python in your computer?
 date: 2021-05-21T15:48:32+08:00
 draft: false
 
 # post thumb
-image: "images/post/pyenv-stylecloud.png"
+image: images/post/pyenv-stylecloud.png
 
 # meta description
-description: "Learn the best way to install python using pyenv"
+description: Learn the best way to install python using pyenv
 
 # taxonomies
 categories:
-  - "Computer and programming"
+  - Computer and programming
 tags:
-  - "Computer languages"
-  - "Education"
-  - "Python"
-  - "Pyenv"
+  - Computer languages
+  - Education
+  - Python
+  - Pyenv
+  - Installing python
+  - Virtual env
 
 # post type
-type: "post"
+type: post
 
 # next article
-next: "117-vscode-extensions-the-ultimate-guide-part-1.md"
+next: 117-vscode-extensions-the-ultimate-guide-part-1.md
 ---
 
 Sometimes the best way to install a program, is not simply downloading it.
