@@ -43,8 +43,8 @@ canonifyURLs = true
   URL = "plugins/slick/slick.css"
   [[params.plugins.css]]
   URL = "plugins/themify-icons/themify-icons.css"
-  [[params.plugins.css]]
-  URL = "plugins/venobox/venobox.css"
+  # [[params.plugins.css]]
+  # URL = "plugins/venobox/venobox.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -54,13 +54,13 @@ canonifyURLs = true
   [[params.plugins.js]]
   URL = "plugins/slick/slick.min.js"
   [[params.plugins.js]]
-  URL = "plugins/venobox/venobox.min.js"
-  [[params.plugins.js]]
   URL = "plugins/search/fuse.min.js"
   [[params.plugins.js]]
   URL = "plugins/search/mark.js"
   [[params.plugins.js]]
   URL = "plugins/search/search.js"
+  # [[params.plugins.js]]
+  # URL = "plugins/venobox/venobox.min.js"
 
 
 ############################## navigation ###############################
