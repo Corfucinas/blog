@@ -2,6 +2,7 @@ const gulp = require("gulp");
 const clean = require("gulp-clean");
 const shell = require("gulp-shell");
 const workbox = require("workbox-build");
+var responsive = require('gulp-responsive');
 
 gulp.task("clean", function () {
     return gulp.src("public", { read: false, allowEmpty: true })
@@ -12,6 +13,7 @@ gulp.task("hugo-build", shell.task(["hugo --gc --minify --cleanDestinationDir --
 
 gulp.task("generate-service-worker", () => {
     return workbox.generateSW({
+        cacheId: "AbsoluteArray",
         cleanupOutdatedCaches: true,
         mode: "production",
         sourcemap: true,

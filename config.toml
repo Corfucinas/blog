@@ -19,6 +19,10 @@ pluralizeListTitles = false
 disableHugoGeneratorInject = true
 canonifyURLs = true
 
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    page = "/:slug/"
+
 [languages]
   [languages.en]
     languageName = "English"
