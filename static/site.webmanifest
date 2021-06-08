@@ -1,6 +1,7 @@
 {
   "name": "Absolute Array",
   "short_name": "Abs Array",
+  "description": "Dedicated content for improving your programming abilities and learning new skills",
   "icons": [
     {
       "src": "/images/favicon/android-chrome-192x192.png",
