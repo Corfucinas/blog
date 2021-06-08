@@ -19,6 +19,9 @@ pluralizeListTitles = false
 disableHugoGeneratorInject = true
 canonifyURLs = true
 
+[build]
+  writeStats = true
+
 [permalinks]
     posts = "/:year/:month/:slug/"
     page = "/:slug/"
