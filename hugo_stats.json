@@ -36,12 +36,14 @@
       "pre",
       "script",
       "section",
+      "source",
       "span",
       "strong",
       "style",
       "textarea",
       "title",
-      "ul"
+      "ul",
+      "video"
     ],
     "classes": [
       "active",
@@ -129,6 +131,7 @@
       "page-item",
       "page-link",
       "pagination",
+      "pagination-default",
       "pb-0",
       "pl-0",
       "pl-lg-4",

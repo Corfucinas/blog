@@ -1,8 +1,8 @@
 const gulp = require("gulp");
 const clean = require("gulp-clean");
 const shell = require("gulp-shell");
+const responsive = require('gulp-responsive');
 const workbox = require("workbox-build");
-var responsive = require('gulp-responsive');
 
 gulp.task("clean", function () {
     return gulp.src("public", { read: false, allowEmpty: true })

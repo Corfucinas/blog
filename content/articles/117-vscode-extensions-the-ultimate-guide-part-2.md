@@ -104,7 +104,7 @@ Features:
 - Lookup package.json recursive
 - Experimental: Package Subfolder Intellisense
 
-![npm-intellisense](../../images/post/117-vscode-extensions/part-2/npm-intellisense.gif "npm-intellisense")
+{{< rawhtml >}} <video width=100% autoplay loop muted playsinline> <source src="../../images/webp/post/117-vscode-extensions/part-2/npm-intellisense.webm" type="video/webm"> Upgrade your browser to see the video. </video> {{< /rawhtml >}}
 
 ---
 
@@ -130,7 +130,7 @@ would allow to type:
 
 > Write faster code in autopilot without needing to figure out the relative path to all your folders
 
-![PathIntellisense](../../images/post/117-vscode-extensions/part-2/path-intellisense.gif "PathIntellisense")
+{{< rawhtml >}} <video autoplay loop muted playsinline> <source src="../../images/webp/post/117-vscode-extensions/part-2/path-intellisense.webm" type="video/webm"> Upgrade your browser to see the video. </video> {{< /rawhtml >}}
 
 ---
 
@@ -186,7 +186,7 @@ It supports English as default, but you can also use an add-on of additional lan
 
 You can also enable it in accordance with individual file types, avoid having to make `fix typo` commits on your repo.
 
-![VScode Spell Checker](../../images/post/117-vscode-extensions/part-2/vscode-spell-checker.gif "VScode Spell Checker")
+{{< rawhtml >}} <video width=100% autoplay loop muted playsinline> <source src="../../images/webp/post/117-vscode-extensions/part-2/vscode-spell-checker.webm" type="video/webm"> Upgrade your browser to see the video. </video> {{< /rawhtml >}}
 
 ---
 
