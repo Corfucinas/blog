@@ -5,7 +5,7 @@ date: 2021-06-18T16:09:41+08:00
 draft: true
 
 # post thumb
-image: "images/featured-post/117-extensions-vs-code-stylecloud.png"
+image: "images/webp/featured-post/117-extensions-vs-code-stylecloud.webp"
 
 # meta description
 description: "The most comprehensive guide for VScode extensions"

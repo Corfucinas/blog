@@ -5,7 +5,7 @@ date: 2021-05-21T15:48:32+08:00
 draft: false
 
 # post thumb
-image: images/post/pyenv-stylecloud.png
+image: images/webp/post/pyenv-stylecloud.webp
 
 # meta description
 description: Learn the best way to install python using pyenv

@@ -9,6 +9,45 @@ gulp.task("clean", function () {
         .pipe(clean());
 });
 
+gulp.task("image-webp", () =>
+    gulp.src('./static/images/featured-post/*.{png, jpg}')
+        .pipe(responsive({
+            "*.{png, jpg}": [{
+                // width: 700,
+                // height: 700,
+                quality: 100,
+                format: 'webp',
+                crop: false,
+
+            }],
+        }))
+        .pipe(gulp.dest("./static/images/webp/featured-post/"),
+            gulp.src('./static/images/post/**/*.{png, jpg}')
+                .pipe(responsive({
+                    "**/*.{png, jpg}": [{
+                        // width: 700,
+                        // height: 700,
+                        quality: 100,
+                        format: 'webp',
+                        crop: false,
+
+                    }],
+                }))
+                .pipe(gulp.dest("./static/images/webp/post/"),
+
+            )), gulp.src('./static/images/profile-picture/profile-picture.jpg')
+                .pipe(responsive({
+                    "profile-picture.jpg": [{
+                        // width: 700,
+                        // height: 700,
+                        quality: 100,
+                        format: 'webp',
+                        crop: false,
+
+                    }],
+                }))
+                .pipe(gulp.dest("./static/images/webp/")));
+
 gulp.task("hugo-build", shell.task(["hugo --gc --minify --cleanDestinationDir --verbose"])); // this can change depending on which static generator you are using.
 
 gulp.task("generate-service-worker", () => {
@@ -77,4 +116,4 @@ gulp.task("generate-service-worker", () => {
     });
 });
 
-gulp.task("build", gulp.series("clean", "hugo-build", "generate-service-worker"));
+gulp.task("build", gulp.series("clean", "hugo-build", "image-webp", "generate-service-worker"));

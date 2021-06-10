@@ -4,7 +4,7 @@ date: 2021-05-21T15:48:32+08:00
 draft: false
 
 # image
-image: "images/profile_picture.jpg"
+image: "images/webp/profile-picture.webp"
 
 # meta description
 description: "Tokyo, Japan"

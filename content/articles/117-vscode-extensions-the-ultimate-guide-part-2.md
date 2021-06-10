@@ -5,7 +5,7 @@ date: 2021-06-04T16:09:41+08:00
 draft: false
 
 # post thumb
-image: images/featured-post/117-extensions-vs-code-stylecloud.png
+image: images/webp/featured-post/117-extensions-vs-code-stylecloud.webp
 
 # meta description
 description: The most comprehensive guide for VScode extensions
@@ -70,7 +70,7 @@ This website you are currently visiting is licensed under the MIT licence, check
 
 > [You can also see the code of this page by clicking here](https://github.com/Corfucinas/corfucinas.github.io/ "absolute-array-website"), it is open source after all
 
-![licence-snippets](../../images/post/117-vscode-extensions/part-2/licence-snippets.png "licence-snippets")
+![licence-snippets](../../images/webp/post/117-vscode-extensions/part-2/licence-snippets.webp "licence-snippets")
 
 ---
 
@@ -88,7 +88,7 @@ Features:
 
 > Nothing better than an extension to assist you if you're not familiar with the syntax of something you don't use frequently.
 
-![Better-TOML](../../images/post/117-vscode-extensions/part-2/better-toml.png "better-toml")
+![Better-TOML](../../images/webp/post/117-vscode-extensions/part-2/better-toml.webp "better-toml")
 
 ---
 
@@ -140,7 +140,7 @@ This extension allows matching brackets to be identified with colours. The user 
 
 > There's no need to strain your eyes by figuring out complex logic on nested loops.
 
-![bracket-pair-colorizer](../../images/post/117-vscode-extensions/part-2/bracket-pair-colorizer.png "bracket-pair-colorizer")
+![bracket-pair-colorizer](../../images/webp/post/117-vscode-extensions/part-2/bracket-pair-colorizer.webp "bracket-pair-colorizer")
 
 ---
 
@@ -150,7 +150,7 @@ VSCodeVim is a Vim emulator for Visual Studio Code.
 
 Vim requires zero introduction, bring the power of Vim to VScode, just as in your terminal.
 
-![Vim](../../images/post/117-vscode-extensions/part-2/vim.png "Vim")
+![Vim](../../images/webp/post/117-vscode-extensions/part-2/vim.webp "Vim")
 
 ---
 
@@ -194,7 +194,7 @@ You can also enable it in accordance with individual file types, avoid having to
 
 Syntax Highlighting support for Environment (.env) Files
 
-![Dotenv](../../images/post/117-vscode-extensions/part-2/dotenv.png "Dotenv")
+![Dotenv](../../images/webp/post/117-vscode-extensions/part-2/dotenv.webp "Dotenv")
 
 ---
 
@@ -217,7 +217,7 @@ These include:
 
 > In order to use this extension you must first have the Arduino IDE or Arduino CLI installed on your system
 
-![arduino-uno](../../images/post/117-vscode-extensions/part-2/arduino-uno.jpg "arduino-uno")
+![arduino-uno](../../images/webp/post/117-vscode-extensions/part-2/arduino-uno.webp "arduino-uno")
 
 ---
 
@@ -225,7 +225,7 @@ These include:
 
 > The best looking icon theme for your VScode. No need to code without any style or good taste
 
-![material-icon-theme](../../images/post/117-vscode-extensions/part-2/material-icon-theme.png "material-icon-theme")
+![material-icon-theme](../../images/webp/post/117-vscode-extensions/part-2/material-icon-theme.webp "material-icon-theme")
 
 ---
 
@@ -258,6 +258,6 @@ If you're moving to a new system or coding with a new computer in a new office, 
 - Workspaces Folder
 ```
 
-![settings-sync](../../images/post/117-vscode-extensions/part-2/settings-sync.png "settings-sync")
+![settings-sync](../../images/webp/post/117-vscode-extensions/part-2/settings-sync.webp "settings-sync")
 
 ---

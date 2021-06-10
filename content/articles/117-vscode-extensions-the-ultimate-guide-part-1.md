@@ -5,7 +5,7 @@ date: 2021-05-24T16:09:41+08:00
 draft: false
 
 # post thumb
-image: images/featured-post/117-extensions-vs-code-stylecloud.png
+image: images/webp/featured-post/117-extensions-vs-code-stylecloud.webp
 
 # meta description
 description: The most comprehensive guide for VScode extensions
@@ -59,7 +59,7 @@ This is a TextMate/Sublime/VS Code/Atom bundle providing language support for x8
   - VMX/SMX/NPX/SGX
   - other AMD/Cyrix/VIA and planned future Intel extensions
 
-![language-x86-64-assembly](../../images/post/117-vscode-extensions/part-1/language-x86-64-assembly.png "language-x86-64-assembly")
+![language-x86-64-assembly](../../images/webp/post/117-vscode-extensions/part-1/language-x86-64-assembly.webp "language-x86-64-assembly")
 
 ---
 
@@ -159,7 +159,7 @@ It has a lot of supported languages:
 * YAML
 ```
 
-![better-comments](../../images/post/117-vscode-extensions/part-1/better-comments.png "better-comments")
+![better-comments](../../images/webp/post/117-vscode-extensions/part-1/better-comments.webp "better-comments")
 
 ---
 
@@ -174,7 +174,7 @@ Take beautiful screenshots of your code in VS Code!
 - Show line numbers
 - Many other configuration options
 
-![code-snap](../../images/post/117-vscode-extensions/part-1/codesnap.png "codesnap")
+![code-snap](../../images/webp/post/117-vscode-extensions/part-1/codesnap.webp "codesnap")
 
 ---
 
@@ -191,7 +191,7 @@ Changes compared to Aaron Thomas version are:
 
 > This is also my favorite theme for VScode, after having spent a lot of time with the Dracula theme
 
-![snazzy-plus-dark](../../images/post/117-vscode-extensions/part-1/snazzy-plus-dark.png "snazzy-plus-dark")
+![snazzy-plus-dark](../../images/webp/post/117-vscode-extensions/part-1/snazzy-plus-dark.webp "snazzy-plus-dark")
 
 ---
 
@@ -224,7 +224,7 @@ A extension for Visual Studio Code that assists you in working with .gitignore f
 Save precious development time by just running `Ctrl+Shift+P or F1` and type `Add gitignore`.
 After that, just select the your language. Check out below how the _python_ `.gitignore` looks.
 
-![gitignore](../../images/post/117-vscode-extensions/part-1/gitignore.png "gitignore")
+![gitignore](../../images/webp/post/117-vscode-extensions/part-1/gitignore.webp "gitignore")
 
 ---
 
@@ -292,7 +292,7 @@ This extension is a port of the popular Sublime Text plugin Trailing Spaces.
 
 > VS Code provides a way to automate deletion of trailing spaces by using the Trim Trailing Whitespace command. Depending on your settings, it may be more handy to just highlight them and/or delete them by hand, at any time. This plugin provides just that, and a lot of options to fine-tune the way you want to decimate trailing spaces.
 
-![trailingspaces](../../images/post/117-vscode-extensions/part-1/trailing-spaces.png "trailingspaces")
+![trailingspaces](../../images/webp/post/117-vscode-extensions/part-1/trailing-spaces.webp "trailingspaces")
 
 ---
 
