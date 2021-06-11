@@ -13,38 +13,74 @@ gulp.task("image-webp", () =>
     gulp.src('./static/images/featured-post/*.{png, jpg}')
         .pipe(responsive({
             "*.{png, jpg}": [{
-                // width: 700,
-                // height: 700,
                 quality: 100,
                 format: 'webp',
-                crop: false,
-
-            }],
+            },
+            {
+                quality: 100,
+                width: 480,
+                format: 'webp',
+                rename: { suffix: "-sm@2x" },
+            }, {
+                quality: 100,
+                width: 675,
+                format: 'webp',
+            }, {
+                quality: 100,
+                width: 675,
+                format: 'webp',
+                rename: { suffix: "@2x" },
+            }
+            ],
         }))
         .pipe(gulp.dest("./static/images/webp/featured-post/"),
             gulp.src('./static/images/post/**/*.{png, jpg}')
                 .pipe(responsive({
                     "**/*.{png, jpg}": [{
-                        // width: 700,
-                        // height: 700,
                         quality: 100,
                         format: 'webp',
-                        crop: false,
-
-                    }],
+                    },
+                    {
+                        quality: 100,
+                        width: 480,
+                        format: 'webp',
+                        rename: { suffix: "-sm@2x" },
+                    }, {
+                        quality: 100,
+                        width: 675,
+                        format: 'webp',
+                    }, {
+                        quality: 100,
+                        width: 675,
+                        format: 'webp',
+                        rename: { suffix: "@2x" },
+                    }
+                    ],
                 }))
                 .pipe(gulp.dest("./static/images/webp/post/"),
 
             )), gulp.src('./static/images/profile-picture/profile-picture.jpg')
                 .pipe(responsive({
                     "profile-picture.jpg": [{
-                        // width: 700,
-                        // height: 700,
                         quality: 100,
                         format: 'webp',
-                        crop: false,
-
-                    }],
+                    },
+                    {
+                        quality: 100,
+                        width: 480,
+                        format: 'webp',
+                        rename: { suffix: "-sm@2x" },
+                    }, {
+                        quality: 100,
+                        width: 675,
+                        format: 'webp',
+                    }, {
+                        quality: 100,
+                        width: 675,
+                        format: 'webp',
+                        rename: { suffix: "@2x" },
+                    }
+                    ],
                 }))
                 .pipe(gulp.dest("./static/images/webp/")));
 
