@@ -25,15 +25,13 @@ jobs:
           hugo-version: "latest"
           extended: true
 
-      - name: Install Node
-        uses: actions/setup-node@v2.1.5
-        with:
-          node-version: "14"
+      - name: Install Yarn
+        uses: borales/actions-yarn@v2.0.0
 
       - name: Build website
         run: |
-          npm install
-          npm run build
+          yarn install
+          yarn run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.8.0
