@@ -27,11 +27,13 @@ jobs:
 
       - name: Install Yarn
         uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install
 
       - name: Build website
-        run: |
-          yarn install
-          yarn run build
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.8.0
