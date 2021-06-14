@@ -9,6 +9,7 @@
     "cssnano-preset-advanced": "^5.1.2",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
+    "gulp-purgecss": "^4.0.3",
     "gulp-responsive": "^3.0.1",
     "gulp-shell": "^0.8.0",
     "postcss": "^8.3.0",
