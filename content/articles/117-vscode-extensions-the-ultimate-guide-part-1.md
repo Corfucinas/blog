@@ -15,6 +15,7 @@ categories:
   - Computer and programming
 tags:
   - IDE
+  - Learn to program
   - Toolkit
   - VScode extensions
   - Microsoft
