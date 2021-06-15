@@ -118,7 +118,7 @@ canonifyURLs = true
 
 #################### default parameters ################################
 [params]
-logo = "images/favicon/favicon.ico"
+logo = "images/favicon/apple-touch-icon-114x114.png"
 home = "Home"
 # Meta data
 description = "Dedicated content for improving your programming abilities and learning new skills"
