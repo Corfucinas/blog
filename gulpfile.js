@@ -2,7 +2,6 @@ const gulp = require("gulp");
 const clean = require("gulp-clean");
 const shell = require("gulp-shell");
 const responsive = require('gulp-responsive');
-const purgecss = require('gulp-purgecss');
 const workbox = require("workbox-build");
 
 gulp.task("clean", function () {
@@ -152,13 +151,5 @@ gulp.task("generate-service-worker", () => {
         ],
     });
 });
-
-gulp.task('purgecss', () => {
-    return gulp.src('src/**/*.css')
-        .pipe(purgecss({
-            content: ['src/**/*.html']
-        }))
-        .pipe(gulp.dest('build/css'))
-})
 
 gulp.task("build", gulp.series("clean", "hugo-build", "image-webp", "generate-service-worker"));
