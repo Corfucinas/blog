@@ -2,6 +2,7 @@
   "htmlElements": {
     "tags": [
       "a",
+      "amp-img",
       "article",
       "base",
       "blockquote",
