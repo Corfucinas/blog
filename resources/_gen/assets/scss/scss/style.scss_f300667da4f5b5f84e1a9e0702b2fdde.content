@@ -285,6 +285,39 @@ button.bg-primary:hover {
 .darkmode--activated .logo-image {
   isolation: isolate; }
 
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+  max-width: 100%; }
+
+.tabs button {
+  min-width: 100px;
+  color: #8d8d8d;
+  background-color: #f8f8f8;
+  border: 1px solid #eaeaea;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: -1px;
+  padding: 14px 16px;
+  transition: 0.3s; }
+
+.tabs button:hover {
+  color: inherit;
+  background-color: #ebebeb; }
+
+.tabs button.active {
+  color: inherit;
+  background-color: white;
+  border-bottom: white; }
+
+.tabcontent {
+  display: none; }
+
+.tabcontent.active {
+  display: block; }
+
 .nav-item {
   margin: 0; }
   .nav-item .nav-link {

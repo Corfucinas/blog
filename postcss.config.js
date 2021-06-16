@@ -3,6 +3,7 @@ module.exports = {
     plugins: {
       '@fullhuman/postcss-purgecss': {
         content: ['./themes/**/*.html', './themes/**/*.js', './themes/liva-hugo/assets/plugins/themify-icons/themify-icons.css'],
+        safelist: ['blockquote'],
         fontFace: true,
         keyframes: true,
         variables: true

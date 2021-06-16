@@ -19,6 +19,10 @@ pluralizeListTitles = false
 disableHugoGeneratorInject = true
 canonifyURLs = true
 
+[markup]
+  [markup.goldmark.renderer]
+    unsafe= true
+
 [build]
   writeStats = true
 
