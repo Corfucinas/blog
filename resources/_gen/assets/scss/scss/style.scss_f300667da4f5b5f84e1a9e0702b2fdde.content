@@ -1,5 +1,9 @@
 /*  typography */
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@font-face {
+  font-family: "Fira Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+  font-display: swap; }
+
 body {
   line-height: 1.2;
   font-family: "Fira Sans", Ubuntu;
@@ -317,42 +321,6 @@ button.bg-primary:hover {
 
 .tabcontent.active {
   display: block; }
-
-body {
-  -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-  -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-  -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-  animation: -amp-start 8s steps(1, end) 0s 1 normal both; }
-
-@-webkit-keyframes -amp-start {
-  from {
-    visibility: hidden; }
-  to {
-    visibility: visible; } }
-
-@-moz-keyframes -amp-start {
-  from {
-    visibility: hidden; }
-  to {
-    visibility: visible; } }
-
-@-ms-keyframes -amp-start {
-  from {
-    visibility: hidden; }
-  to {
-    visibility: visible; } }
-
-@-o-keyframes -amp-start {
-  from {
-    visibility: hidden; }
-  to {
-    visibility: visible; } }
-
-@keyframes -amp-start {
-  from {
-    visibility: hidden; }
-  to {
-    visibility: visible; } }
 
 .nav-item {
   margin: 0; }
