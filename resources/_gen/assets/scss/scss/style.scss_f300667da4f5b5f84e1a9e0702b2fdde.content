@@ -490,9 +490,9 @@ button.bg-primary:hover {
   .widget li {
     margin-bottom: 10px; }
     .widget li a {
-      color: #222222; }
+      color: black; }
       .widget li a:hover {
-        color: #0074c2; }
+        filter: brightness(150%); }
 
 .social-links li a {
   height: 35px;
