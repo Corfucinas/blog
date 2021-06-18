@@ -21,7 +21,7 @@ canonifyURLs = true
 
 [markup]
   [markup.goldmark.renderer]
-    unsafe= true
+    unsafe = true
 
 [build]
   writeStats = true
@@ -30,11 +30,11 @@ canonifyURLs = true
     posts = "/:year/:month/:slug/"
     page = "/:slug/"
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    languageCode = "en-us"
-    weight = 1
+# [languages]
+#   [languages.en]
+#     languageName = "English"
+#     languageCode = "en-us"
+    # weight = 1
 
 [sitemap]
   changefreq = "weekly"
