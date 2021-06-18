@@ -104,7 +104,20 @@ Features:
 - Lookup package.json recursive
 - Experimental: Package Subfolder Intellisense
 
-{{< rawhtml >}} <video autoplay loop muted playsinline> <source src="../../images/webp/post/117-vscode-extensions/part-2/npm-intellisense.webm" type="video/webm"> Upgrade your browser to see the video. </video> {{< /rawhtml >}}
+{{< rawhtml >}}
+<amp-video autoplay loop noaudio
+  width="931"
+  height="281"
+  layout="intrinsic"
+  title="npm-intellisense">
+
+  <source src="../../images/webp/post/117-vscode-extensions/part-2/npm-intellisense.webm"
+    type="video/webm" />
+  <div fallback>
+    <p dir="ltr">Upgrade your browser to see the video.</p>
+  </div>
+</amp-video>
+{{< /rawhtml >}}
 
 ---
 
@@ -130,7 +143,20 @@ would allow to type:
 
 > Write faster code in autopilot without needing to figure out the relative path to all your folders
 
-{{< rawhtml >}} <video autoplay loop muted playsinline> <source src="../../images/webp/post/117-vscode-extensions/part-2/path-intellisense.webm" type="video/webm"> Upgrade your browser to see the video. </video> {{< /rawhtml >}}
+{{< rawhtml >}}
+<amp-video autoplay loop noaudio
+  width="480"
+  height=""
+  layout="intrinsic"
+  title="path-intellisense">
+
+  <source src="./../images/webp/post/117-vscode-extensions/part-2/path-intellisense.webm"
+    type="video/webm" />
+  <div fallback>
+    <p dir="ltr">Upgrade your browser to see the video.</p>
+  </div>
+</amp-video>
+{{< /rawhtml >}}
 
 ---
 
@@ -186,7 +212,20 @@ It supports English as default, but you can also use an add-on of additional lan
 
 You can also enable it in accordance with individual file types, avoid having to make `fix typo` commits on your repo.
 
-{{< rawhtml >}} <video autoplay loop muted playsinline> <source src="../../images/webp/post/117-vscode-extensions/part-2/vscode-spell-checker.webm" type="video/webm"> Upgrade your browser to see the video. </video> {{< /rawhtml >}}
+{{< rawhtml >}}
+<amp-video autoplay loop noaudio
+  width="745"
+  height="539"
+  layout="intrinsic"
+  title="vscode-spell-checker">
+
+  <source src="../../images/webp/post/117-vscode-extensions/part-2/vscode-spell-checker.webm"
+    type="video/webm" />
+  <div fallback>
+    <p dir="ltr">Upgrade your browser to see the video.</p>
+  </div>
+</amp-video>
+{{< /rawhtml >}}
 
 ---
 
