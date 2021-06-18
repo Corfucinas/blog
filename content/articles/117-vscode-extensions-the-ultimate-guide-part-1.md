@@ -214,7 +214,20 @@ Here are some of the features that Bookmarks provides:
 
 **Navigate your code as navigate your favorite book**
 
-{{< rawhtml >}} <video autoplay loop muted playsinline> <source src="../../images/webp/post/117-vscode-extensions/part-1/bookmarks-list-from-all-files.webm" type="video/webm"> Upgrade your browser to see the video. </video> {{< /rawhtml >}}
+{{< rawhtml >}}
+<amp-video autoplay loop noaudio
+  width="662"
+  height="448"
+  layout="intrinsic"
+  title="bookmarks-github">
+
+  <source src="../../images/webp/post/117-vscode-extensions/part-1/bookmarks-list-from-all-files.webm"
+    type="video/webm" />
+  <div fallback>
+    <p dir="ltr">Upgrade your browser to see the video.</p>
+  </div>
+</amp-video>
+{{< /rawhtml >}}
 
 ---
 
@@ -245,7 +258,20 @@ Adds suggestions and autocomplete for emoji to VS Code.
 
 Forget about looking up the _[unicode](https://www.unicode.org/emoji/charts/full-emoji-list.html)_ for your emoji ever again
 
-{{< rawhtml >}} <video autoplay loop muted playsinline> <source src="../../images/webp/post/117-vscode-extensions/part-1/emojisense.webm" type="video/webm"> Upgrade your browser to see the video. </video> {{< /rawhtml >}}
+{{< rawhtml >}}
+<amp-video autoplay loop noaudio
+  width="830"
+  height="396"
+  layout="intrinsic"
+  title="emojisense">
+
+  <source src="../../images/webp/post/117-vscode-extensions/part-1/emojisense.webm"
+    type="video/webm" />
+  <div fallback>
+    <p dir="ltr">Upgrade your browser to see the video.</p>
+  </div>
+</amp-video>
+{{< /rawhtml >}}
 
 ---
 
@@ -261,7 +287,20 @@ Hover over a Sourcery suggestion to see a description of what Sourcery wants you
 
 Sourcery also provides quality metrics for every function you write (plus warnings for really bad code).
 
-{{< rawhtml >}} <video autoplay loop muted playsinline> <source src="../../images/webp/post/117-vscode-extensions/part-1/sourcery-python.webm" type="video/webm"> Upgrade your browser to see the video. </video> {{< /rawhtml >}}
+{{< rawhtml >}}
+<amp-video autoplay loop noaudio
+  width="600"
+  height="457"
+  layout="intrinsic"
+  title="sourcery-python">
+
+  <source src="./../images/webp/post/117-vscode-extensions/part-1/sourcery-python.webm"
+    type="video/webm" />
+  <div fallback>
+    <p dir="ltr">Upgrade your browser to see the video.</p>
+  </div>
+</amp-video>
+{{< /rawhtml >}}
 
 ---
 
@@ -281,7 +320,20 @@ With this extension you will have:
 
 > This is particularly useful is you're into front-end development. This website is written using **[Hugo](https://gohugo.io/)**, one of the most popular open-source static site generators, the content you are reading right now it's written in markdown, [take a look!](https://raw.githubusercontent.com/Corfucinas/blog/master/content/blog/117-vscode-extensions-the-ultimate-guide-part-1.md).
 
-{{< rawhtml >}} <video autoplay loop muted playsinline> <source src="../../images/webp/post/117-vscode-extensions/part-1/markdown-all-in-one.webm" type="video/webm"> Upgrade your browser to see the video. </video> {{< /rawhtml >}}
+{{< rawhtml >}}
+<amp-video autoplay loop noaudio
+  width="1536"
+  height="676"
+  layout="intrinsic"
+  title="markdown-all-in-one">
+
+  <source src="../../images/webp/post/117-vscode-extensions/part-1/markdown-all-in-one.webm"
+    type="video/webm" />
+  <div fallback>
+    <p dir="ltr">Upgrade your browser to see the video.</p>
+  </div>
+</amp-video>
+{{< /rawhtml >}}
 
 ---
 
