@@ -9,5 +9,3 @@ description: "Contact info page"
 # type
 type: "contact"
 ---
-
-Have an idea business idea you would like to discuss?
