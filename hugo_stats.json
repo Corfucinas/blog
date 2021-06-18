@@ -2,11 +2,9 @@
   "htmlElements": {
     "tags": [
       "a",
-      "amp-analytics",
       "amp-img",
       "amp-video",
       "article",
-      "base",
       "blockquote",
       "body",
       "br",
@@ -46,8 +44,7 @@
       "style",
       "textarea",
       "title",
-      "ul",
-      "video"
+      "ul"
     ],
     "classes": [
       "active",
@@ -171,7 +168,6 @@
       "ti-menu",
       "ti-mobile",
       "ti-search",
-      "video-wrapper",
       "w-100",
       "widget",
       "widget-title"
@@ -204,7 +200,6 @@
       "coolbut-why",
       "email",
       "features",
-      "hahahugoshortcode-s4-hbhb",
       "how-to-install",
       "js-cookie-box",
       "js-cookie-button",
