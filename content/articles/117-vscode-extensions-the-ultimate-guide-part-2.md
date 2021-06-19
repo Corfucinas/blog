@@ -70,7 +70,16 @@ This website you are currently visiting is licensed under the MIT licence, check
 
 > [You can also see the code of this page by clicking here](https://github.com/Corfucinas/absolute-array/ "absolute-array-website"), it is open source after all
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-2/licence-snippets" type="webp" alt="licence-snippets" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="licence-snippets"
+  src="../../images/webp/post/117-vscode-extensions/part-2/licence-snippets.webp"
+  width="911"
+  height="482"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -88,7 +97,16 @@ Features:
 
 > Nothing better than an extension to assist you if you're not familiar with the syntax of something you don't use frequently.
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-2/better-toml" type="webp" alt="better-toml" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="better-toml"
+  src="../../images/webp/post/117-vscode-extensions/part-2/better-toml.webp"
+  width="1020"
+  height="1524"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -146,11 +164,11 @@ would allow to type:
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
   width="480"
-  height=""
+  height="270"
   layout="intrinsic"
   title="path-intellisense">
 
-  <source src="./../images/webp/post/117-vscode-extensions/part-2/path-intellisense.webm"
+  <source src="../../images/webp/post/117-vscode-extensions/part-2/path-intellisense.webm"
     type="video/webm" />
   <div fallback>
     <p dir="ltr">Upgrade your browser to see the video.</p>
@@ -166,7 +184,16 @@ This extension allows matching brackets to be identified with colours. The user 
 
 > There's no need to strain your eyes by figuring out complex logic on nested loops.
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-2/bracket-pair-colorizer" type="webp" alt="bracket-pair-colorizer" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="bracket-pair-colorizer"
+  src="../../images/webp/post/117-vscode-extensions/part-2/bracket-pair-colorizer.webp"
+  width="1166"
+  height="1260"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -176,7 +203,16 @@ VSCodeVim is a Vim emulator for Visual Studio Code.
 
 Vim requires zero introduction, bring the power of Vim to VScode, just as in your terminal.
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-2/vim" type="webp" alt="vim" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="vim"
+  src="../../images/webp/post/117-vscode-extensions/part-2/vim.webp"
+  width="688"
+  height="688"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -233,7 +269,17 @@ You can also enable it in accordance with individual file types, avoid having to
 
 Syntax Highlighting support for Environment (.env) Files
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-2/dotenv" type="webp" alt="dotenv" caption="" >}}
+
+{{< rawhtml >}}
+<amp-img
+  alt="dotenv"
+  src="../../images/webp/post/117-vscode-extensions/part-2/dotenv.webp"
+  width="785"
+  height="166"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -256,7 +302,17 @@ These include:
 
 > In order to use this extension you must first have the Arduino IDE or Arduino CLI installed on your system
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-2/arduino-uno" type="webp" alt="arduino-uno" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="arduino-uno"
+  src="../../images/webp/post/117-vscode-extensions/part-2/arduino-uno.webp"
+  width="799"
+  height="600"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
+
 
 ---
 
@@ -264,7 +320,16 @@ These include:
 
 > The best looking icon theme for your VScode. No need to code without any style or good taste
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-2/material-icon-theme" type="webp" alt="material-icon-theme" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="material-icon-theme"
+  src="../../images/webp/post/117-vscode-extensions/part-2/material-icon-theme.webp"
+  width="1124"
+  height="3564"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -297,6 +362,15 @@ If you're moving to a new system or coding with a new computer in a new office, 
 - Workspaces Folder
 ```
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-2/settings-sync" type="webp" alt="settings-sync" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="settings-sync"
+  src="../../images/webp/post/117-vscode-extensions/part-2/settings-sync.webp"
+  width="1174"
+  height="870"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
