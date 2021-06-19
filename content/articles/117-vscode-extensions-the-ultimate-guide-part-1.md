@@ -60,8 +60,16 @@ This is a TextMate/Sublime/VS Code/Atom bundle providing language support for x8
   - VMX/SMX/NPX/SGX
   - other AMD/Cyrix/VIA and planned future Intel extensions
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-1/language-x86-64-assembly" type="webp" alt="language-x86-64-assembly" caption="" >}}
-
+{{< rawhtml >}}
+<amp-img
+  alt="language-x86-64-assembly"
+  src="../../images/webp/post/117-vscode-extensions/part-1/language-x86-64-assembly.webp"
+  width="1856"
+  height="1200"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 ---
 
 ### [#2 Better-comments](https://github.com/aaron-bond/better-comments "Better-comments-github")
@@ -160,7 +168,16 @@ It has a lot of supported languages:
 * YAML
 ```
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-1/better-comments" type="webp" alt="better-comments" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="better-comments"
+  src="../../images/webp/post/117-vscode-extensions/part-1/better-comments.webp"
+  width="730"
+  height="291"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -175,7 +192,16 @@ Take beautiful screenshots of your code in VS Code!
 - Show line numbers
 - Many other configuration options
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-1/codesnap" type="webp" alt="codesnap" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="codesnap"
+  src="../../images/webp/post/117-vscode-extensions/part-1/codesnap.webp"
+  width="1328"
+  height="1332"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -192,7 +218,16 @@ Changes compared to Aaron Thomas version are:
 
 > This is also my favorite theme for VScode, after having spent a lot of time with the Dracula theme
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-1/snazzy-plus-dark" type="webp" alt="snazzy-plus-dark" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="snazzy-plus-dark"
+  src="../../images/webp/post/117-vscode-extensions/part-1/snazzy-plus-dark.webp"
+  width="1761"
+  height="1313"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -238,7 +273,16 @@ A extension for Visual Studio Code that assists you in working with .gitignore f
 Save precious development time by just running `Ctrl+Shift+P or F1` and type `Add gitignore`.
 After that, just select the your language. Check out below how the _python_ `.gitignore` looks.
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-1/gitignore" type="webp" alt="gitignore" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="gitignore"
+  src="../../images/webp/post/117-vscode-extensions/part-1/gitignore.webp"
+  width="1454"
+  height="1612"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -294,7 +338,7 @@ Sourcery also provides quality metrics for every function you write (plus warnin
   layout="intrinsic"
   title="sourcery-python">
 
-  <source src="./../images/webp/post/117-vscode-extensions/part-1/sourcery-python.webm"
+  <source src="../../images/webp/post/117-vscode-extensions/part-1/sourcery-python.webm"
     type="video/webm" />
   <div fallback>
     <p dir="ltr">Upgrade your browser to see the video.</p>
@@ -345,7 +389,16 @@ This extension is a port of the popular Sublime Text plugin Trailing Spaces.
 
 > VS Code provides a way to automate deletion of trailing spaces by using the Trim Trailing Whitespace command. Depending on your settings, it may be more handy to just highlight them and/or delete them by hand, at any time. This plugin provides just that, and a lot of options to fine-tune the way you want to decimate trailing spaces.
 
-{{< image src="../../images/webp/post/117-vscode-extensions/part-1/trailing-spaces" type="webp" alt="trailing-spaces" caption="" >}}
+{{< rawhtml >}}
+<amp-img
+  alt="trailing-spaces"
+  src="../../images/webp/post/117-vscode-extensions/part-1/trailing-spaces.webp"
+  width="976"
+  height="167"
+  layout="intrinsic"
+>
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
