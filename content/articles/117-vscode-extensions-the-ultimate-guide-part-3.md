@@ -40,7 +40,7 @@ This is an extension for Visual Studio Code which adds commands for inserting Un
 
 The commands can be executed via the command palette (View > Command Palette.../ Ctrl + Shift + P) or bound to keyboard shortcuts.
 
->No longer waste time looking at unicode tables online to get what you need
+> No longer waste time looking at unicode tables online to get what you need
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
@@ -120,7 +120,7 @@ Automatically rename paired HTML/XML tag, same as Visual Studio IDE does.
 
 When you rename one HTML/XML tag, automatically rename the paired HTML/XML tag
 
->This is useful when you don't remember if a tag is void or not and will made you avoid easy mistakes for not closing the tag.
+> This is useful when you don't remember if a tag is void or not and will made you avoid easy mistakes for not closing the tag.
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
@@ -138,6 +138,7 @@ When you rename one HTML/XML tag, automatically rename the paired HTML/XML tag
 {{< /rawhtml >}}
 
 ---
+
 ### [#25 Vscode Python](https://github.com/Microsoft/vscode-python)
 
 A Visual Studio Code extension with rich support for the Python language (for all actively supported versions of the language: >=3.6), including features such as IntelliSense (Pylance), linting, debugging, code navigation, code formatting, refactoring, variable explorer, test explorer, and more!
@@ -181,7 +182,7 @@ A Visual Studio Code extension with rich support for the Python language (for al
 
 Visual Studio Code extension to quickly generate docstrings for python functions.
 
->Spend more time coding, less time writing documentation!
+> Spend more time coding, less time writing documentation!
 
 **Features**
 
@@ -223,16 +224,17 @@ This will make it easy to see the color, rather than memorizing its hex code.
 
 {{< rawhtml >}}
 <amp-img
-  alt="color-highlight"
-  src="../../images/webp/post/117-vscode-extensions/part-3/color-highlight.webp"
-  width="771"
-  height="323"
-  layout="intrinsic"
->
-</amp-img>
-{{< /rawhtml >}}
+alt="color-highlight"
+src="../../images/webp/post/117-vscode-extensions/part-3/color-highlight.webp"
+width="771"
+height="323"
+layout="intrinsic"
+
+> </amp-img>
+> {{< /rawhtml >}}
 
 ---
+
 ### [#28 Rainbox CSV](https://github.com/mechatroner/vscode_rainbow_csv)
 
 Add style to your CSVs, who said that they have to be boring?
@@ -248,14 +250,14 @@ Add style to your CSVs, who said that they have to be boring?
 
 {{< rawhtml >}}
 <amp-img
-  alt="rainbow-csv"
-  src="../../images/webp/post/117-vscode-extensions/part-3/rainbow-csv.webp"
-  width="1409"
-  height="739"
-  layout="intrinsic"
->
-</amp-img>
-{{< /rawhtml >}}
+alt="rainbow-csv"
+src="../../images/webp/post/117-vscode-extensions/part-3/rainbow-csv.webp"
+width="1409"
+height="739"
+layout="intrinsic"
+
+> </amp-img>
+> {{< /rawhtml >}}
 
 ---
 

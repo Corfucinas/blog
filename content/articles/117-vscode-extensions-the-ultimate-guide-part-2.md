@@ -72,14 +72,14 @@ This website you are currently visiting is licensed under the MIT licence, check
 
 {{< rawhtml >}}
 <amp-img
-  alt="licence-snippets"
-  src="../../images/webp/post/117-vscode-extensions/part-2/licence-snippets.webp"
-  width="911"
-  height="482"
-  layout="intrinsic"
->
-</amp-img>
-{{< /rawhtml >}}
+alt="licence-snippets"
+src="../../images/webp/post/117-vscode-extensions/part-2/licence-snippets.webp"
+width="911"
+height="482"
+layout="intrinsic"
+
+> </amp-img>
+> {{< /rawhtml >}}
 
 ---
 
@@ -99,14 +99,14 @@ Features:
 
 {{< rawhtml >}}
 <amp-img
-  alt="better-toml"
-  src="../../images/webp/post/117-vscode-extensions/part-2/better-toml.webp"
-  width="1020"
-  height="1524"
-  layout="intrinsic"
->
-</amp-img>
-{{< /rawhtml >}}
+alt="better-toml"
+src="../../images/webp/post/117-vscode-extensions/part-2/better-toml.webp"
+width="1020"
+height="1524"
+layout="intrinsic"
+
+> </amp-img>
+> {{< /rawhtml >}}
 
 ---
 
@@ -186,14 +186,14 @@ This extension allows matching brackets to be identified with colours. The user 
 
 {{< rawhtml >}}
 <amp-img
-  alt="bracket-pair-colorizer"
-  src="../../images/webp/post/117-vscode-extensions/part-2/bracket-pair-colorizer.webp"
-  width="1166"
-  height="1260"
-  layout="intrinsic"
->
-</amp-img>
-{{< /rawhtml >}}
+alt="bracket-pair-colorizer"
+src="../../images/webp/post/117-vscode-extensions/part-2/bracket-pair-colorizer.webp"
+width="1166"
+height="1260"
+layout="intrinsic"
+
+> </amp-img>
+> {{< /rawhtml >}}
 
 ---
 
@@ -205,14 +205,14 @@ Vim requires zero introduction, bring the power of Vim to VScode, just as in you
 
 {{< rawhtml >}}
 <amp-img
-  alt="vim"
-  src="../../images/webp/post/117-vscode-extensions/part-2/vim.webp"
-  width="688"
-  height="688"
-  layout="intrinsic"
->
-</amp-img>
-{{< /rawhtml >}}
+alt="vim"
+src="../../images/webp/post/117-vscode-extensions/part-2/vim.webp"
+width="688"
+height="688"
+layout="intrinsic"
+
+> </amp-img>
+> {{< /rawhtml >}}
 
 ---
 
@@ -269,17 +269,16 @@ You can also enable it in accordance with individual file types, avoid having to
 
 Syntax Highlighting support for Environment (.env) Files
 
-
 {{< rawhtml >}}
 <amp-img
-  alt="dotenv"
-  src="../../images/webp/post/117-vscode-extensions/part-2/dotenv.webp"
-  width="785"
-  height="166"
-  layout="intrinsic"
->
-</amp-img>
-{{< /rawhtml >}}
+alt="dotenv"
+src="../../images/webp/post/117-vscode-extensions/part-2/dotenv.webp"
+width="785"
+height="166"
+layout="intrinsic"
+
+> </amp-img>
+> {{< /rawhtml >}}
 
 ---
 
@@ -304,15 +303,14 @@ These include:
 
 {{< rawhtml >}}
 <amp-img
-  alt="arduino-uno"
-  src="../../images/webp/post/117-vscode-extensions/part-2/arduino-uno.webp"
-  width="799"
-  height="600"
-  layout="intrinsic"
->
-</amp-img>
-{{< /rawhtml >}}
+alt="arduino-uno"
+src="../../images/webp/post/117-vscode-extensions/part-2/arduino-uno.webp"
+width="799"
+height="600"
+layout="intrinsic"
 
+> </amp-img>
+> {{< /rawhtml >}}
 
 ---
 
@@ -322,14 +320,14 @@ These include:
 
 {{< rawhtml >}}
 <amp-img
-  alt="material-icon-theme"
-  src="../../images/webp/post/117-vscode-extensions/part-2/material-icon-theme.webp"
-  width="1124"
-  height="3564"
-  layout="intrinsic"
->
-</amp-img>
-{{< /rawhtml >}}
+alt="material-icon-theme"
+src="../../images/webp/post/117-vscode-extensions/part-2/material-icon-theme.webp"
+width="1124"
+height="3564"
+layout="intrinsic"
+
+> </amp-img>
+> {{< /rawhtml >}}
 
 ---
 
@@ -364,14 +362,14 @@ If you're moving to a new system or coding with a new computer in a new office, 
 
 {{< rawhtml >}}
 <amp-img
-  alt="settings-sync"
-  src="../../images/webp/post/117-vscode-extensions/part-2/settings-sync.webp"
-  width="1174"
-  height="870"
-  layout="intrinsic"
->
-</amp-img>
-{{< /rawhtml >}}
+alt="settings-sync"
+src="../../images/webp/post/117-vscode-extensions/part-2/settings-sync.webp"
+width="1174"
+height="870"
+layout="intrinsic"
+
+> </amp-img>
+> {{< /rawhtml >}}
 
 ---
 
