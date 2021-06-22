@@ -188,10 +188,9 @@ alt="bracket-pair-colorizer"
 src="../../images/webp/post/117-vscode-extensions/part-2/bracket-pair-colorizer.webp"
 width="1166"
 height="1260"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -319,10 +318,9 @@ alt="material-icon-theme"
 src="../../images/webp/post/117-vscode-extensions/part-2/material-icon-theme.webp"
 width="1124"
 height="3564"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
