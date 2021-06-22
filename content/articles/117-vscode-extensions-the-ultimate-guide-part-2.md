@@ -76,10 +76,9 @@ alt="licence-snippets"
 src="../../images/webp/post/117-vscode-extensions/part-2/licence-snippets.webp"
 width="911"
 height="482"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -103,10 +102,9 @@ alt="better-toml"
 src="../../images/webp/post/117-vscode-extensions/part-2/better-toml.webp"
 width="1020"
 height="1524"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -209,10 +207,9 @@ alt="vim"
 src="../../images/webp/post/117-vscode-extensions/part-2/vim.webp"
 width="688"
 height="688"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -275,10 +272,9 @@ alt="dotenv"
 src="../../images/webp/post/117-vscode-extensions/part-2/dotenv.webp"
 width="785"
 height="166"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -307,10 +303,9 @@ alt="arduino-uno"
 src="../../images/webp/post/117-vscode-extensions/part-2/arduino-uno.webp"
 width="799"
 height="600"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -366,10 +361,9 @@ alt="settings-sync"
 src="../../images/webp/post/117-vscode-extensions/part-2/settings-sync.webp"
 width="1174"
 height="870"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 

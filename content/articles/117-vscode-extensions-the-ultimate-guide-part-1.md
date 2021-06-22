@@ -66,11 +66,9 @@ alt="language-x86-64-assembly"
 src="../../images/webp/post/117-vscode-extensions/part-1/language-x86-64-assembly.webp"
 width="1856"
 height="1200"
-layout="intrinsic"
-
-> </amp-img>
-
-## {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ### [#2 Better-comments](https://github.com/aaron-bond/better-comments "Better-comments-github")
 
@@ -174,10 +172,9 @@ alt="better-comments"
 src="../../images/webp/post/117-vscode-extensions/part-1/better-comments.webp"
 width="730"
 height="291"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -198,10 +195,9 @@ alt="codesnap"
 src="../../images/webp/post/117-vscode-extensions/part-1/codesnap.webp"
 width="1328"
 height="1332"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -224,10 +220,9 @@ alt="snazzy-plus-dark"
 src="../../images/webp/post/117-vscode-extensions/part-1/snazzy-plus-dark.webp"
 width="1761"
 height="1313"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -279,10 +274,9 @@ alt="gitignore"
 src="../../images/webp/post/117-vscode-extensions/part-1/gitignore.webp"
 width="1454"
 height="1612"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -395,10 +389,9 @@ alt="trailing-spaces"
 src="../../images/webp/post/117-vscode-extensions/part-1/trailing-spaces.webp"
 width="976"
 height="167"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 

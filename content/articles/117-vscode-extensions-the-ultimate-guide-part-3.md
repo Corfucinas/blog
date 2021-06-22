@@ -228,10 +228,9 @@ alt="color-highlight"
 src="../../images/webp/post/117-vscode-extensions/part-3/color-highlight.webp"
 width="771"
 height="323"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
@@ -254,10 +253,9 @@ alt="rainbow-csv"
 src="../../images/webp/post/117-vscode-extensions/part-3/rainbow-csv.webp"
 width="1409"
 height="739"
-layout="intrinsic"
-
-> </amp-img>
-> {{< /rawhtml >}}
+layout="intrinsic">
+</amp-img>
+{{< /rawhtml >}}
 
 ---
 
