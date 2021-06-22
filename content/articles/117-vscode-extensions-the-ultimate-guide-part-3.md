@@ -1,7 +1,7 @@
 ---
 author: Pedro Torres
 title: 117 Vscode Extensions - One guide to rule them all (Part 3/5)
-date: 2021-06-21T16:09:41+08:00
+date: 2021-06-20T16:09:41+08:00
 draft: false
 
 # post thumb
