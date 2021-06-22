@@ -225,8 +225,8 @@ This will make it easy to see the color, rather than memorizing its hex code.
 <amp-img
   alt="color-highlight"
   src="../../images/webp/post/117-vscode-extensions/part-3/color-highlight.webp"
-  width="642"
-  height="288"
+  width="771"
+  height="323"
   layout="intrinsic"
 >
 </amp-img>
