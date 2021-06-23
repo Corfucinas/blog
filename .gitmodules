@@ -4,3 +4,6 @@ url = https://github.com/Corfucinas/absolute-array.git
 [submodule "themes/liva-hugo"]
 path = themes/liva-hugo
 url = https://github.com/Corfucinas/liva-hugo-theme.git
+[submodule "tools"]
+	path = tools
+	url = https://github.com/securityheaders/security-headers-cloudflare-worker.git
