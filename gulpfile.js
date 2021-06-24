@@ -102,16 +102,6 @@ gulp.task("generate-service-worker", () => {
         globIgnores: ["**/index.xml", "**/index.json", "**/sitemap.xml"],
         runtimeCaching: [
             {
-                urlPattern: /(?:\/)$/,
-                handler: "StaleWhileRevalidate",
-                options: {
-                    cacheName: "html",
-                    expiration: {
-                        maxAgeSeconds: 60 * 60 * 24 * 7,
-                    },
-                },
-            },
-            {
                 urlPattern: /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
                 handler: "CacheFirst",
                 options: {
