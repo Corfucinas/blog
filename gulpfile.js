@@ -124,7 +124,7 @@ gulp.task("generate-service-worker", () => {
                 },
             },
             {
-                urlPattern: /\.(?:m4v|mpg|avi)$/,
+                urlPattern: /\.(?:m4v|mpg|avi|webm)$/,
                 handler: "CacheFirst",
                 options: {
                     cacheName: "videos",
