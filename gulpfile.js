@@ -102,6 +102,16 @@ gulp.task("generate-service-worker", () => {
         globIgnores: ["**/index.xml", "**/index.json", "**/sitemap.xml", "**/tags/**"],
         runtimeCaching: [
             {
+                urlPattern: /(?:\/)$/,
+                handler: "StaleWhileRevalidate",
+                options: {
+                    cacheName: "html",
+                    expiration: {
+                        maxAgeSeconds: 60 * 60 * 24 * 7,
+                    },
+                },
+            },
+            {
                 urlPattern: /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
                 handler: "CacheFirst",
                 options: {
@@ -124,7 +134,7 @@ gulp.task("generate-service-worker", () => {
                 },
             },
             {
-                urlPattern: /\.(?:m4v|mpg|avi|webm)$/,
+                urlPattern: /\.(?:m4v|mpg|avi)$/,
                 handler: "CacheFirst",
                 options: {
                     cacheName: "videos",
