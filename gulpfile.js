@@ -99,7 +99,7 @@ gulp.task("generate-service-worker", () => {
         offlineGoogleAnalytics: true,
         globPatterns: ["**/*.{js,css,html,eot,ttf,woff,woff2,otf}"],
         navigateFallback: "/404.html", // fallback file
-        globIgnores: ["**/index.xml", "**/index.json", "**/sitemap.xml"],
+        globIgnores: ["**/index.xml", "**/index.json", "**/sitemap.xml", "**/tags/**"],
         runtimeCaching: [
             {
                 urlPattern: /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
