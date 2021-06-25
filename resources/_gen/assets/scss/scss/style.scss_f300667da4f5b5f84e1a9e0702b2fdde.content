@@ -275,6 +275,10 @@ button.bg-primary:hover {
   z-index: -999999;
   opacity: 0; }
 
+.g-recaptcha {
+  display: flex;
+  justify-content: center; }
+
 .darkmode-layer,
 .darkmode-toggle {
   z-index: 500; }
