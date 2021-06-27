@@ -2,6 +2,7 @@
   "htmlElements": {
     "tags": [
       "a",
+      "amp-carousel",
       "amp-img",
       "amp-install-serviceworker",
       "amp-script",
@@ -53,7 +54,6 @@
       "author-thumb-sm",
       "bg-primary",
       "bg-transparent",
-      "blur-up",
       "border-0",
       "border-bottom",
       "border-primary",
@@ -98,7 +98,6 @@
       "h5",
       "img-fluid",
       "justify-content-center",
-      "lazyload",
       "list-inline",
       "list-inline-item",
       "list-unstyled",
@@ -153,6 +152,9 @@
       "search-wrapper",
       "section",
       "section-sm",
+      "slick-dotted",
+      "slick-initialized",
+      "slick-slider",
       "small-post-border",
       "social-links",
       "text-center",
