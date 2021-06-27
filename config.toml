@@ -26,9 +26,9 @@ canonifyURLs = true
 [build]
   writeStats = true
 
-[permalinks]
-    posts = "/:year/:month/:slug/"
-    page = "/:slug/"
+# [permalinks]
+#     posts = "/:year/:month/:slug/"
+#     page = "/:slug/"
 
 # [languages]
 #   [languages.en]
@@ -43,6 +43,7 @@ canonifyURLs = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS"]
 
 ############################# Plugins ##############################
 [params.plugins]
@@ -80,17 +81,17 @@ canonifyURLs = true
   # main menu
   [[menu.main]]
   name = "About"
-  URL = "about/"
+  URL = "about"
   weight = 1
 
   [[menu.main]]
   name = "Articles"
-  URL = "articles/"
+  URL = "articles"
   weight = 2
 
   [[menu.main]]
   name = "Contact"
-  URL = "contact/"
+  URL = "contact"
   weight = 3
 
   [[menu.main]]
@@ -101,17 +102,17 @@ canonifyURLs = true
   # footer menu
   [[menu.footer]]
   name = "About"
-  URL = "about/"
+  URL = "about"
   weight = 1
 
   [[menu.footer]]
   name = "Articles"
-  URL = "articles/"
+  URL = "articles"
   weight = 2
 
   [[menu.footer]]
   name = "Contact"
-  URL = "contact/"
+  URL = "contact"
   weight = 3
 
   [[menu.footer]]
