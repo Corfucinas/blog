@@ -98,7 +98,7 @@ gulp.task("generate-service-worker", () => {
         skipWaiting: true,
         offlineGoogleAnalytics: true,
         globPatterns: ["**/*.{js,css,html,eot,ttf,woff,woff2,otf}"],
-        navigateFallback: "/404.html", // fallback file
+        // navigateFallback: "/404.html", // fallback file
         globIgnores: ["**/index.xml", "**/index.json", "**/sitemap.xml", "**/tags/**"],
         runtimeCaching: [
             {
