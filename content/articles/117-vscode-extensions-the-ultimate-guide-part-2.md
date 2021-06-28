@@ -122,6 +122,7 @@ Features:
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="931"
   height="281"
   layout="intrinsic"
@@ -161,6 +162,7 @@ would allow to type:
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="480"
   height="270"
   layout="intrinsic"
@@ -246,6 +248,7 @@ You can also enable it in accordance with individual file types, avoid having to
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="745"
   height="539"
   layout="intrinsic"

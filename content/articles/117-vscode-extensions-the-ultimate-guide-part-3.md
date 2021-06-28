@@ -44,6 +44,7 @@ The commands can be executed via the command palette (View > Command Palette.../
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="856"
   height="302"
   layout="intrinsic"
@@ -69,6 +70,7 @@ This is quite useful when you are learning a new codebase or revisiting your own
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="747"
   height="610"
   layout="intrinsic"
@@ -99,6 +101,7 @@ After typing in the closing bracket of the opening tag, the closing tag will be 
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="1440"
   height="938"
   layout="intrinsic"
@@ -124,6 +127,7 @@ When you rename one HTML/XML tag, automatically rename the paired HTML/XML tag
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="1440"
   height="938"
   layout="intrinsic"
@@ -163,6 +167,7 @@ A Visual Studio Code extension with rich support for the Python language (for al
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="1541"
   height="950"
   layout="intrinsic"
@@ -201,6 +206,7 @@ Visual Studio Code extension to quickly generate docstrings for python functions
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="1200"
   height="754"
   layout="intrinsic"
@@ -281,6 +287,7 @@ Pylance provides some awesome features for Python3, including:
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="1500"
   height="750"
   layout="intrinsic"
@@ -308,6 +315,7 @@ Provides type hint auto-completion for Python, with completion items for built-i
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="601"
   height="303"
   layout="intrinsic"

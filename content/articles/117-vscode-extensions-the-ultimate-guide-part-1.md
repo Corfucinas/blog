@@ -246,6 +246,7 @@ Here are some of the features that Bookmarks provides:
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="662"
   height="448"
   layout="intrinsic"
@@ -298,6 +299,7 @@ Forget about looking up the _[unicode](https://www.unicode.org/emoji/charts/full
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="830"
   height="396"
   layout="intrinsic"
@@ -327,6 +329,7 @@ Sourcery also provides quality metrics for every function you write (plus warnin
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="600"
   height="457"
   layout="intrinsic"
@@ -360,6 +363,7 @@ With this extension you will have:
 
 {{< rawhtml >}}
 <amp-video autoplay loop noaudio
+  poster="../../static/images/preloader/web-preloader.svg"
   width="1536"
   height="676"
   layout="intrinsic"
