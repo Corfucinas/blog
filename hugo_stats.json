@@ -2,7 +2,6 @@
   "htmlElements": {
     "tags": [
       "a",
-      "amp-carousel",
       "amp-img",
       "amp-install-serviceworker",
       "amp-script",
