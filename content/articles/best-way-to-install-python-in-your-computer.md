@@ -28,7 +28,7 @@ type: post
 next: 117-vscode-extensions-the-ultimate-guide-part-1.md
 ---
 
-Sometimes the best way to install a program, is not simply downloading it.
+Sometimes the best way to install a program, is not simple as you think.
 
 # What is Pyenv?
 
