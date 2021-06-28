@@ -634,6 +634,3 @@ button.bg-primary:hover {
 .content .blur-up.lazyloaded {
   -webkit-filter: blur(0);
   filter: blur(0); }
-
-.i-amphtml-carousel-content {
-  position: relative; }
