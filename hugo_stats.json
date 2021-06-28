@@ -2,6 +2,7 @@
   "htmlElements": {
     "tags": [
       "a",
+      "amp-analytics",
       "amp-img",
       "amp-install-serviceworker",
       "amp-script",
