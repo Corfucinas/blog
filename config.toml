@@ -140,6 +140,7 @@ github = "https://github.com/Corfucinas/"
 og_image = "images/favicon/android-chrome-512x512.png"
 sitename = "Absolute Array"
 reCaptchaV2 = "6LdDXlYbAAAAABM9KbeeF0lD0cKm3qeX5ubRyUbR"
+organizationName = "Absolute Array"
 
   # Preloader
   [params.preloader]
