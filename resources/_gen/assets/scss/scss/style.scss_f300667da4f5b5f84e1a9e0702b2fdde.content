@@ -180,7 +180,8 @@ a:hover {
   background: #0074c2; }
 
 .text-primary {
-  color: #0074c2; }
+  color: #0074c2;
+  font-weight: 600; }
 
 .text-dark {
   color: #000; }
@@ -267,6 +268,12 @@ button.bg-primary:hover {
 
 .cookie-box-hide {
   display: none; }
+
+.reading-time {
+  justify-content: right; }
+  .reading-time p {
+    color: #0074c2;
+    font-weight: 400; }
 
 #g-recaptcha-response {
   display: block;
@@ -397,6 +404,11 @@ button.bg-primary:hover {
   .card-header, .card-footer, .card-img, .card-img-top {
     border: 0;
     border-radius: 0; }
+  .card a {
+    font-weight: 700; }
+
+.media-body a {
+  font-weight: 700; }
 
 /* /card */
 .featured-post .card-title {
