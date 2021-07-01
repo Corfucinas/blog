@@ -89,6 +89,7 @@
       "featured-post",
       "font-weight-bold",
       "font-weight-light",
+      "footer",
       "form-control",
       "g-recaptcha",
       "h-100",
@@ -171,6 +172,7 @@
       "widget-title"
     ],
     "ids": [
+      "#footer",
       "1-language-x86-64-assemblyhttpsgithubcom13xforeverx86_64-assembly-vscode-language-x86-64-assembly-github",
       "10-licence-snippetshttpsgithubcombenemohamedlicence-snippets",
       "10-trailing-spaceshttpsgithubcomshardulm94vscode-trailingspaces-trailing-spaces-repo",
