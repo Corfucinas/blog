@@ -32,6 +32,7 @@ tags:
 
 # post type
 type: featured
+series: ["117 Vscode Extensions"]
 ---
 
 They are many guides out there, but they are all repeating each other

@@ -19,6 +19,11 @@ pluralizeListTitles = false
 disableHugoGeneratorInject = true
 canonifyURLs = true
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
 [markup]
   [markup.goldmark.renderer]
     unsafe = true

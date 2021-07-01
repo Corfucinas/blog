@@ -32,6 +32,7 @@ tags:
 
 # post type
 type: post
+series: ["117 Vscode Extensions"]
 ---
 
 ### [#10 Licence-snippets](https://github.com/benemohamed/licence-snippets)

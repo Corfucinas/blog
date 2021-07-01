@@ -23,6 +23,7 @@ tags:
   - Linux
 
 # next article
+series: ["xxx"]
 next: xxx
 ---
 

@@ -49,7 +49,6 @@
       "ul"
     ],
     "classes": [
-      "active",
       "author-thumb-sm",
       "background-category",
       "bg-primary",
@@ -85,7 +84,6 @@
       "cookie-box-hide",
       "d-block",
       "desktop-view",
-      "disabled",
       "featured-post",
       "font-weight-bold",
       "font-weight-light",
@@ -128,10 +126,6 @@
       "no-gutters",
       "offset-md-1",
       "p-2",
-      "page-item",
-      "page-link",
-      "pagination",
-      "pagination-default",
       "pb-0",
       "pl-0",
       "pl-lg-4",
