@@ -51,6 +51,7 @@
     "classes": [
       "active",
       "author-thumb-sm",
+      "background-category",
       "bg-primary",
       "bg-transparent",
       "border-0",

@@ -506,9 +506,13 @@ button.bg-primary:hover {
   .widget li {
     margin-bottom: 10px; }
     .widget li a {
-      color: black; }
+      background-color: #0074c2; }
       .widget li a:hover {
-        filter: brightness(150%); }
+        filter: brightness(150%);
+        color: #000; }
+  .widget .background-category li a {
+    color: #fff;
+    padding: 0.5rem; }
 
 .social-links li a {
   height: 35px;

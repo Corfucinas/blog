@@ -7,7 +7,7 @@ draft: false
 image: "images/webp/profile-picture"
 
 # meta description
-description: "Tokyo, Japan"
+description: "Dedicated content for improving your programming abilities and learning new skills"
 
 # type
 type: "about"
