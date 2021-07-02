@@ -7,3 +7,6 @@ url = https://github.com/Corfucinas/liva-hugo-theme.git
 [submodule "tools"]
 	path = tools
 	url = https://github.com/securityheaders/security-headers-cloudflare-worker.git
+[submodule "themes/absolute-array-amperage"]
+	path = themes/absolute-array-amperage
+	url = https://github.com/Corfucinas/absolute-array-amperage.git
