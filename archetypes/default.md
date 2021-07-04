@@ -1,26 +1,60 @@
 ---
-author: Pedro Torres
+author:
+  - name: Pedro Torres
+  - homepage: https://absolutearray.com/
+
 title: "{{ replace .Name "-" " " | title }}"
-date:  {{ .Date }}
+
+date: {{ .Date }}
 draft: true
-type: post
+publishdate: "{{ .Date }}"
+description: ""
+summary: ""
 
-# meta description
-description: xxx
+tags:
+  - a
+  - b
+  - c
 
-# post thumb
-image: myimage.jpg
+
+keywords:
+  - A
+  - B
+  - C
 
 # taxonomies
 categories:
   - A
   - B
   - C
-tags:
-  - Hugo
-  - Game Development
-  - Internet of Things (IoT)
-  - Linux
+
+amp:
+  elements:
+  - A
+  - B
+  - C
+
+image:
+ src:
+
+ogp:
+  title:
+  url:
+  description:
+  image:
+  site:
+
+twitter:
+    title: ""
+    url: ""
+    description: ""
+    image: ""
+    site: ""
+
+sitemap:
+    changefreq: weekly
+    priority: 0.5
+    filename: sitemap.xml
 
 # next article
 series: ["xxx"]
