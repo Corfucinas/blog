@@ -3,6 +3,12 @@ const clean = require("gulp-clean");
 const shell = require("gulp-shell");
 const responsive = require('gulp-responsive');
 const workbox = require("workbox-build");
+const { src, dest } = require('gulp');
+const through2 = require('through2');
+
+const AmpOptimizer = require('@ampproject/toolbox-optimizer');
+const ampOptimizer = AmpOptimizer.create();
+
 
 gulp.task("clean", function () {
     return gulp.src("public", { read: false, allowEmpty: true })
@@ -142,4 +148,21 @@ gulp.task("generate-service-worker", () => {
     });
 });
 
+
+gulp.task("amp-build", (cb) => {
+    return src('public/*.html')
+        .pipe(
+            through2.obj(async (file, _, cb) => {
+                if (file.isBuffer()) {
+                    const optimizedHtml = await ampOptimizer.transformHtml(
+                        file.contents.toString()
+                    );
+                    file.contents = Buffer.from(optimizedHtml);
+                }
+                cb(null, file);
+            })
+        )
+        .pipe(dest('public/'));
+}
+)
 gulp.task("build", gulp.series("clean", "hugo-build", "image-webp", "generate-service-worker"));
