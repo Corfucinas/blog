@@ -1,186 +1,156 @@
-######################## default configuration ####################
 baseURL = "https://absolutearray.com/"
-copyright = "Pedro Torres"
+name = "Absolute Array"
 DefaultContentLanguage  = "en"
 disableLanguages        = []
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
-languageCode = "en-us"
-licence = "MIT"
+license = "MIT"
 licenselink = "https://raw.githubusercontent.com/Corfucinas/blog/master/LICENCE"
-title = "In a quest for vast knowledge"
-theme = "liva-hugo"
+theme = "absolute-array-amperage"
+description = "Dedicated content for improving your programming abilities and learning new skills"
 summaryLength = "10"
-paginate = 12
+# Number of posts shown per page (default: 10)
+paginate = 3
 disqusShortname = ""
 hasCJKLanguage = true
 pluralizeListTitles = false
 disableHugoGeneratorInject = true
 canonifyURLs = true
+pygmentsUseClasses = true
+assetDir = "static"
+defaultContentLanguageInSubdir = true
+enableMissingTranslationPlaceholders = true
+languageName = "english"
+verbose = true
 
+homepage = "https://github.com/asurbernardo/amperage"
+
+[author]
+    name = "Pedro Torres"
+    homepage = "http://absolutearray.com/"
+
+# Language sections
+[languages]
+    [languages.en]
+        contentDir = "content/english"
+        languageName = "English"
+        languageCode = "en"
+        title = "In a quest for vast knowledge"
+        description = "English version for Absolute Array"
+        weight = 1
+    [languages.es]
+        contentDir = "content/spanish"
+        languageName = "Español"
+        languageCode = "es"
+        title = "En una constante busqueda por el conocimiento"
+        description = "Versión en español de Absolute Array"
+        weight = 2
+
+# Menu elements
+[[menu.main]]
+    identifier = "email"
+    name = "Email"
+    url = "mailto:absolutearray@protonmail.ch"
+    weight = 8
+[[menu.main]]
+    identifier = "author"
+    name = "Resume"
+    url = "./en/resume/resume.html"
+    weight = 9
+[[menu.main]]
+    identifier = "github"
+    name = "Github"
+    url = "https://github.com/Corfucinas/"
+    weight = 10
+[[menu.main]]
+    identifier = "linkedin"
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/pedro-torres-cruz/"
+    weight = 11
+
+# Enable only tags taxonomy
 [taxonomies]
   category = "categories"
   tag = "tags"
   series = "series"
 
+[params]
+    copyright = "Absolute Array. All Rights Reserved |" # Name shown on footer copyright
+    themeColor = "#333" # Theme color displayed on mobile browsers
+
+    # Default AMP components for the whole site
+    ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker"]
+
+    email = "absolutearray@protonmail.ch"
+    location = "Shanghai, China"
+    ogimage = "images/favicon/android-chrome-512x512.png"
+    sitename = "Absolute Array"
+    reCaptchaV2 = "6LdDXlYbAAAAABM9KbeeF0lD0cKm3qeX5ubRyUbR"
+
+
+    # Google Analytics code
+    googleAnalytics = "G-WHSXXMY8EX"
+
+    # Adsense publisher code
+    # adsensePublisher = "ca-pub-123456789"
+
+    # Comments Iframe URL
+    # commentsEmbedUrl = "https://comments.example.com"
+
+    # Social sites for metatags
+    # facebookSite = "example"
+    # twitterSite = "@example"
+
+    # Structured data elements
+    socialProfiles = ["https://github.com/Corfucinas/","https://www.linkedin.com/in/pedro-torres-cruz/"]
+
+    # alternatePageName = "Amperage example"
+    organizationLogo = "images/favicon/apple-touch-icon-114x114.png"
+    organizationName = "Absolute Array"
+
+    publisherName = "Absolute Array"
+    publisherLogo = "/logo.png"
+    publisherLogoWidth = 512
+    publisherLogoHeight = 512
+
+[outputs]
+    home = [ "HTML", "RSS", "SearchIndex", "JSON"]
+    page = ["HTML", "RSS"]
+    section =  ["HTML", "RSS"]
+    taxonomy =  ["HTML", "RSS"]
+    term =  ["HTML", "RSS"]
+
+
+[outputFormats]
+    [outputFormats.SearchIndex]
+        mediaType= "application/json"
+        baseName= "search"
+        isPlainText= true
+        notAlternative= true
+
 [markup]
-  [markup.goldmark.renderer]
-    unsafe = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [build]
   writeStats = true
+
 
 # [permalinks]
 #     posts = "/:year/:month/:slug/"
 #     page = "/:slug/"
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    languageCode = "en-us"
-    weight = 1
 
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "RSS"]
 
-############################# Plugins ##############################
-[params.plugins]
-
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "plugins/bootstrap/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "plugins/slick/slick.css"
-  [[params.plugins.css]]
-  URL = "plugins/themify-icons/themify-icons.css"
-  # [[params.plugins.css]]
-  # URL = "plugins/venobox/venobox.css"
-
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "plugins/jQuery/jquery.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/bootstrap/bootstrap.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/slick/slick.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/fuse.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/mark.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/search.js"
-  # [[params.plugins.js]]
-  # URL = "plugins/venobox/venobox.min.js"
-
-
-############################## navigation ###############################
-[menu]
-
-  # main menu
-  [[menu.main]]
-  name = "About"
-  URL = "about"
-  weight = 1
-
-  [[menu.main]]
-  name = "Articles"
-  URL = "articles"
-  weight = 2
-
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 3
-
-  [[menu.main]]
-  name = "Resume"
-  URL = "./resume/resume.html"
-  weight = 4
-
-  # footer menu
-  [[menu.footer]]
-  name = "About"
-  URL = "about"
-  weight = 1
-
-  [[menu.footer]]
-  name = "Articles"
-  URL = "articles"
-  weight = 2
-
-  [[menu.footer]]
-  name = "Contact"
-  URL = "contact"
-  weight = 3
-
-  [[menu.footer]]
-  name = "Resume"
-  URL = "./resume/resume.html"
-  weight = 4
-
-
-#################### default parameters ################################
-[params]
-logo = "images/favicon/apple-touch-icon-114x114.png"
-home = "Home"
-# Meta data
-description = "Dedicated content for improving your programming abilities and learning new skills"
-author = "Pedro Torres"
-# Google Analitycs
-googleAnalytics = "G-WHSXXMY8EX"
-# Contact Information
-# mobile = "0124857985320"
-email = "absolutearray@protonmail.ch"
-location = "Shanghai, China"
-# copyright
-copyright = "| copyright &copy; 2021 Absolute Array. All Rights Reserved |"
-github = "https://github.com/Corfucinas/"
-ogimage = "images/favicon/android-chrome-512x512.png"
-sitename = "Absolute Array"
-reCaptchaV2 = "6LdDXlYbAAAAABM9KbeeF0lD0cKm3qeX5ubRyUbR"
-organizationName = "Absolute Array"
-
-  # Preloader
-  [params.preloader]
-  enable = true
-  preloader = "images/preloader/web-preloader.svg" # use .png , .svg or .gif format
-
-  # search
-  [params.search]
-  enable = true
-
-############################ news letter ########################
-# [params.newsletter]
-# enable = true
-# title = "Join the newsletter"
-# content = ""
-
-
-# cookies
-[params.cookies]
-enable = true
-expire_days = 2
-
-
-############################# social site ########################
-[[params.social]]
-title = "Email"
-icon = "ti-email" # themify icon : https://themify.me/themify-icons
-link = "mailto:absolutearray@protonmail.ch"
-
-[[params.social]]
-title = "Github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "https://github.com/corfucinas"
-
-[[params.social]]
-title = "Linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "https://www.linkedin.com/in/pedro-torres-cruz/"
+[imaging]
+quality = 100
+disableDate = true
+disableLatLong = true
+resampleFilter = "Lanczos"
