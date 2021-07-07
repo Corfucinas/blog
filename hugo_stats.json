@@ -32,7 +32,6 @@
       "link",
       "main",
       "meta",
-      "metadata",
       "nav",
       "noscript",
       "p",
@@ -134,6 +133,8 @@
       "lets-try-it-out",
       "thanks-for-reading-the-first-part",
       "the-easy-or-the-hard-way",
+      "welcome-to-part-2",
+      "welcome-to-part-3",
       "what-is-pyenv"
     ]
   }

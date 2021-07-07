@@ -78,6 +78,10 @@ width="1500"
 height="1500"
 layout="responsive" >}}
 
+# Welcome to part 2
+
+If you want to install the extensions shown here, you can write the extension name on VScode _extensions:marketplace_
+
 ## [#30 JShint](https://github.com/Microsoft/vscode-jshint)
 
 ---

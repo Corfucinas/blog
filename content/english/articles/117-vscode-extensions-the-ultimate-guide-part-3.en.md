@@ -82,6 +82,10 @@ width="1500"
 height="1500"
 layout="responsive" >}}
 
+# Welcome to part 3
+
+If you want to install the extensions shown here, you can write the extension name on VScode _extensions:marketplace_
+
 ## [#21 Insert-unicode](https://github.com/brunnerh/insert-unicode)
 
 This is an extension for Visual Studio Code which adds commands for inserting Unicode characters/codes and Emoji.

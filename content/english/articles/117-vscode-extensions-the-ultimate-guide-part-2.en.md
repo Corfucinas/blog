@@ -82,6 +82,10 @@ width="1500"
 height="1500"
 layout="responsive" >}}
 
+# Welcome to part 2
+
+If you want to install the extensions shown here, you can write the extension name on VScode _extensions:marketplace_
+
 ## [#10 Licence-snippets](https://github.com/benemohamed/licence-snippets)
 
 This Extensions provides the full text (for LICENCE files) as well as the recommended header text for several popular open-source licence.

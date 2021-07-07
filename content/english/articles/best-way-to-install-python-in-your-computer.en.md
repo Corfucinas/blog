@@ -76,7 +76,7 @@ From their [Github repo](https://github.com/pyenv/pyenv "pyenv-github-repo").
 
 In simple terms, once you have `pyenv` installed in your computer, you will be able to have access to all the possible **builds and releases** of _CPython_, not just a single version.
 
-### Cool...but why?
+## Cool...but why?
 
 One of the things any developer will find out when they desire to learn a new skill is that there's a lot of ways to do one thing, but usually there's a consensus on only one way to do it right. Naturally, many people will have disagreements, but when it comes to the ability to reproduce builds and managing time correctly, developers should be precise and leave their preferences aside.
 
