@@ -1,94 +1,20 @@
 const gulp = require("gulp");
 const clean = require("gulp-clean");
 const shell = require("gulp-shell");
-const responsive = require('gulp-responsive');
 const workbox = require("workbox-build");
 const { src, dest } = require('gulp');
 const through2 = require('through2');
 
 const AmpOptimizer = require('@ampproject/toolbox-optimizer');
-const ampOptimizer = AmpOptimizer.create();
+const ampOptimizer = AmpOptimizer.create(
+    { verbose: true }
+);
 
 
-gulp.task("clean", function () {
+gulp.task("clean", () => {
     return gulp.src("public", { read: false, allowEmpty: true })
         .pipe(clean());
 });
-
-gulp.task("image-webp", () =>
-    gulp.src('./static/images/featured-post/*.{png, jpg}')
-        .pipe(responsive({
-            "*.{png, jpg}": [{
-                quality: 100,
-                format: 'webp',
-            },
-            {
-                quality: 100,
-                width: 480,
-                format: 'webp',
-                rename: { suffix: "-sm@2x" },
-            }, {
-                quality: 100,
-                width: 675,
-                format: 'webp',
-            }, {
-                quality: 100,
-                width: 675,
-                format: 'webp',
-                rename: { suffix: "@2x" },
-            }
-            ],
-        }))
-        .pipe(gulp.dest("./static/images/webp/featured-post/"),
-            gulp.src('./static/images/post/**/*.{png, jpg}')
-                .pipe(responsive({
-                    "**/*.{png, jpg}": [{
-                        quality: 100,
-                        format: 'webp',
-                    },
-                    {
-                        quality: 100,
-                        width: 480,
-                        format: 'webp',
-                        rename: { suffix: "-sm@2x" },
-                    }, {
-                        quality: 100,
-                        width: 675,
-                        format: 'webp',
-                    }, {
-                        quality: 100,
-                        width: 675,
-                        format: 'webp',
-                        rename: { suffix: "@2x" },
-                    }
-                    ],
-                }))
-                .pipe(gulp.dest("./static/images/webp/post/"),
-
-            )), gulp.src('./static/images/profile-picture/profile-picture.jpg')
-                .pipe(responsive({
-                    "profile-picture.jpg": [{
-                        quality: 100,
-                        format: 'webp',
-                    },
-                    {
-                        quality: 100,
-                        width: 480,
-                        format: 'webp',
-                        rename: { suffix: "-sm@2x" },
-                    }, {
-                        quality: 100,
-                        width: 675,
-                        format: 'webp',
-                    }, {
-                        quality: 100,
-                        width: 675,
-                        format: 'webp',
-                        rename: { suffix: "@2x" },
-                    }
-                    ],
-                }))
-                .pipe(gulp.dest("./static/images/webp/")));
 
 gulp.task("hugo-build", shell.task(["hugo --gc --minify --cleanDestinationDir --verbose"])); // this can change depending on which static generator you are using.
 
@@ -150,7 +76,7 @@ gulp.task("generate-service-worker", () => {
 
 
 gulp.task("amp-build", (cb) => {
-    return src('public/*.html')
+    return src('./public/**/*.html')
         .pipe(
             through2.obj(async (file, _, cb) => {
                 if (file.isBuffer()) {
@@ -162,7 +88,9 @@ gulp.task("amp-build", (cb) => {
                 cb(null, file);
             })
         )
-        .pipe(dest('public/'));
+        .pipe(dest('./public/'));
 }
 )
-gulp.task("build", gulp.series("clean", "hugo-build", "image-webp", "generate-service-worker"));
+
+
+gulp.task("build", gulp.series("clean", "hugo-build", "generate-service-worker", "amp-build"));
