@@ -19,6 +19,10 @@ tags:
   - "VScode extensions"
   - "Microsoft"
 
+amp:
+  elements:
+    - amp-social-share
+
 # post type
 type: "post"
 series: ["117 Vscode Extensions"]

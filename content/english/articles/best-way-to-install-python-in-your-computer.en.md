@@ -36,6 +36,10 @@ keywords:
   - Installing python
   - Virtual env
 
+amp:
+  elements:
+    - amp-social-share
+
 ogp:
   title: What's the best way to install Python in your computer?
   url: https://absolutearray.com/articles/best-way-to-install-python-in-your-computer/

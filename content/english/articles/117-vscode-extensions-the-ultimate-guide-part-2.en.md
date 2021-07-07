@@ -54,6 +54,10 @@ keywords:
   - Material Icon Theme
   - Settings sync
 
+amp:
+  elements:
+    - amp-social-share
+
 ogp:
   title: 117 Vscode Extensions - One guide to rule them all (Part 2/5)
   url: https://absolutearray.com/articles/117-vscode-extensions-the-ultimate-guide-part-2/

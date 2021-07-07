@@ -57,6 +57,10 @@ keywords:
   - Markdown all in one
   - Trailing spaces
 
+amp:
+  elements:
+    - amp-social-share
+
 ogp:
   title: 117 Vscode Extensions - One guide to rule them all (Part 1/5)
   url: https://absolutearray.com/articles/117-vscode-extensions-the-ultimate-guide-part-1/

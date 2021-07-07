@@ -80,7 +80,7 @@ homepage = "https://github.com/asurbernardo/amperage"
     themeColor = "#333" # Theme color displayed on mobile browsers
 
     # Default AMP components for the whole site
-    ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker"]
+    ampElements = ["amp-iframe", "amp-analytics", "amp-install-serviceworker"]
 
     email = "absolutearray@protonmail.ch"
     location = "Shanghai, China"
