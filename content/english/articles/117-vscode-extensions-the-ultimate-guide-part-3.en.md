@@ -378,4 +378,4 @@ Provides type hint auto-completion for Python, with completion items for built-i
 ---
 
 <!--
-[You can read Part 4 of this series here](../../en/articles/117-vscode-extensions-the-ultimate-guide-part-4/index.html "part 4 of the series") -->
+[You can read Part 4 of this series here](../../articles/117-vscode-extensions-the-ultimate-guide-part-4/index.html "part 4 of the series") -->

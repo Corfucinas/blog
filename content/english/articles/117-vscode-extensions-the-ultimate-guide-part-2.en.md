@@ -398,4 +398,4 @@ layout="responsive" >}}
 
 ### Thanks for reading the first part
 
-[You can read Part 3 of this series here](../../en/articles/117-vscode-extensions-the-ultimate-guide-part-3/index.html "part 3 of the series")
+[You can read Part 3 of this series here](../../articles/117-vscode-extensions-the-ultimate-guide-part-3/index.html "part 3 of the series")

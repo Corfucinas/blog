@@ -19,9 +19,7 @@ disableHugoGeneratorInject = true
 canonifyURLs = true
 pygmentsUseClasses = true
 assetDir = "static"
-defaultContentLanguageInSubdir = true
 enableMissingTranslationPlaceholders = true
-languageName = "english"
 verbose = true
 
 homepage = "https://github.com/asurbernardo/amperage"
@@ -56,7 +54,7 @@ homepage = "https://github.com/asurbernardo/amperage"
 [[menu.main]]
     identifier = "author"
     name = "Resume"
-    url = "./en/resume/resume.html"
+    url = "./resume/resume.html"
     weight = 9
 [[menu.main]]
     identifier = "github"
