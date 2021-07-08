@@ -90,7 +90,7 @@ homepage = "https://github.com/asurbernardo/amperage"
 
 
     # Google Analytics code
-    googleAnalytics = "G-XJH3V8PNFB"
+    googleAnalytics = "UA-198068033-1"
 
     # Adsense publisher code
     # adsensePublisher = "ca-pub-123456789"
