@@ -2,9 +2,9 @@ module.exports = {
   map: false,
   plugins: {
     '@fullhuman/postcss-purgecss': {
-      content: ['./themes/**/*.html', './themes/liva-hugo/assets/plugins/bootstrap/**/*.js', './themes/liva-hugo/assets/js/**/*.js', './themes/liva-hugo/assets/plugins/darkmode/darkmode.1.5.7.min.js'],
-      css: ['./themes/**/*.css'],
-      safelist: ['blockquote', 'ti-email', 'ti-github', 'ti-linkedin'],
+      content: ['./themes/absolute-array-amperage/**/*.html'],
+      css: ['./themes/absolute-array-amperage/**/*.css'],
+      safelist: [],
       fontFace: true,
       keyframes: true,
       variables: true
