@@ -35,14 +35,14 @@ homepage = "https://github.com/asurbernardo/amperage"
         languageName = "English"
         languageCode = "en"
         title = "In a quest for vast knowledge"
-        description = "English version for Absolute Array"
+        description = "Dedicated content for improving your programming abilities and learning new skills"
         weight = 1
     [languages.es]
         contentDir = "content/spanish"
         languageName = "Español"
         languageCode = "es"
         title = "En una constante busqueda por el conocimiento"
-        description = "Versión en español de Absolute Array"
+        description = "Contenido enfocado para mejorar el conocimiento y habilidades en programación"
         weight = 2
 
 # Menu elements
