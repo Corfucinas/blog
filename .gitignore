@@ -1,5 +1,6 @@
 notes.txt
 .vscode
+.hugo_build.lock
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
