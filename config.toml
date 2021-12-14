@@ -1,156 +1,151 @@
+DefaultContentLanguage = "en"
 baseURL = "https://absolutearray.com/"
-name = "Absolute Array"
-DefaultContentLanguage  = "en"
-disableLanguages        = []
+description = "Dedicated content for improving your programming abilities and learning new skills"
+disableLanguages = []
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
 license = "MIT"
 licenselink = "https://raw.githubusercontent.com/Corfucinas/blog/master/LICENCE"
-theme = "absolute-array-amperage"
-description = "Dedicated content for improving your programming abilities and learning new skills"
+name = "Absolute Array"
 summaryLength = "10"
+theme = "absolute-array-amperage"
 # Number of posts shown per page (default: 10)
-paginate = 3
-disqusShortname = ""
-hasCJKLanguage = true
-pluralizeListTitles = false
-disableHugoGeneratorInject = true
-canonifyURLs = true
-pygmentsUseClasses = true
 assetDir = "static"
+canonifyURLs = true
+disableHugoGeneratorInject = true
+disqusShortname = ""
 enableMissingTranslationPlaceholders = true
+hasCJKLanguage = true
+paginate = 3
+pluralizeListTitles = false
+pygmentsUseClasses = true
 verbose = true
 
 homepage = "https://github.com/asurbernardo/amperage"
 
 [author]
-    name = "Pedro Torres"
-    homepage = "http://absolutearray.com/"
+homepage = "http://absolutearray.com/"
+name = "Pedro Torres"
 
 # Language sections
 [languages]
-    [languages.en]
-        contentDir = "content/english"
-        languageName = "English"
-        languageCode = "en"
-        title = "In a quest for vast knowledge"
-        description = "Dedicated content for improving your programming abilities and learning new skills"
-        weight = 1
-    [languages.es]
-        contentDir = "content/spanish"
-        languageName = "Español"
-        languageCode = "es"
-        title = "En una constante busqueda por el conocimiento"
-        description = "Contenido enfocado para mejorar el conocimiento y habilidades en programación"
-        weight = 2
+[languages.en]
+contentDir = "content/english"
+description = "Dedicated content for improving your programming abilities and learning new skills"
+languageCode = "en"
+languageName = "English"
+title = "In a quest for vast knowledge"
+weight = 1
+[languages.es]
+contentDir = "content/spanish"
+description = "Contenido enfocado para mejorar el conocimiento y habilidades en programación"
+languageCode = "es"
+languageName = "Español"
+title = "En una constante busqueda por el conocimiento"
+weight = 2
 
 # Menu elements
 [[menu.main]]
-    identifier = "email"
-    name = "Email"
-    url = "mailto:absolutearray@protonmail.ch"
-    weight = 8
+identifier = "email"
+name = "Email"
+url = "mailto:absolutearray@protonmail.ch"
+weight = 8
 [[menu.main]]
-    identifier = "author"
-    name = "Resume"
-    url = "./resume/resume.html"
-    weight = 9
+identifier = "author"
+name = "Resume"
+url = "./resume/resume.html"
+weight = 9
 [[menu.main]]
-    identifier = "github"
-    name = "Github"
-    url = "https://github.com/Corfucinas/"
-    weight = 10
+identifier = "github"
+name = "Github"
+url = "https://github.com/Corfucinas/"
+weight = 10
 [[menu.main]]
-    identifier = "linkedin"
-    name = "Linkedin"
-    url = "https://www.linkedin.com/in/pedro-torres-cruz/"
-    weight = 11
+identifier = "linkedin"
+name = "Linkedin"
+url = "https://www.linkedin.com/in/pedro-torres-cruz/"
+weight = 11
 
 # Enable only tags taxonomy
 [taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+category = "categories"
+series = "series"
+tag = "tags"
 
 [params]
-    copyright = "Absolute Array. All Rights Reserved |" # Name shown on footer copyright
-    themeColor = "#333" # Theme color displayed on mobile browsers
+copyright = "Absolute Array. All Rights Reserved |" # Name shown on footer copyright
+themeColor = "#333" # Theme color displayed on mobile browsers
 
-    # Default AMP components for the whole site
-    ampElements = ["amp-iframe", "amp-analytics", "amp-install-serviceworker"]
+# Default AMP components for the whole site
+ampElements = ["amp-iframe", "amp-analytics", "amp-install-serviceworker"]
 
-    email = "absolutearray@protonmail.ch"
-    location = "Shanghai, China"
-    ogimage = "images/favicon/android-chrome-512x512.png"
-    sitename = "Absolute Array"
-    reCaptchaV2 = "6LdDXlYbAAAAABM9KbeeF0lD0cKm3qeX5ubRyUbR"
+email = "absolutearray@protonmail.ch"
+location = "Shanghai, China"
+ogimage = "images/favicon/android-chrome-512x512.png"
+reCaptchaV2 = "6LdDXlYbAAAAABM9KbeeF0lD0cKm3qeX5ubRyUbR"
+sitename = "Absolute Array"
 
+# Google Analytics code
+googleAnalytics = "UA-198068033-1"
 
-    # Google Analytics code
-    googleAnalytics = "UA-198068033-1"
+# Adsense publisher code
+# adsensePublisher = "ca-pub-123456789"
 
-    # Adsense publisher code
-    # adsensePublisher = "ca-pub-123456789"
+# Comments Iframe URL
+# commentsEmbedUrl = "https://comments.example.com"
 
-    # Comments Iframe URL
-    # commentsEmbedUrl = "https://comments.example.com"
+# Social sites for metatags
+# facebookSite = "example"
+# twitterSite = "@example"
 
-    # Social sites for metatags
-    # facebookSite = "example"
-    # twitterSite = "@example"
+# Structured data elements
+socialProfiles = ["https://github.com/Corfucinas/", "https://www.linkedin.com/in/pedro-torres-cruz/"]
 
-    # Structured data elements
-    socialProfiles = ["https://github.com/Corfucinas/","https://www.linkedin.com/in/pedro-torres-cruz/"]
+# alternatePageName = "Amperage example"
+organizationLogo = "images/favicon/apple-touch-icon-114x114.png"
+organizationName = "Absolute Array"
 
-    # alternatePageName = "Amperage example"
-    organizationLogo = "images/favicon/apple-touch-icon-114x114.png"
-    organizationName = "Absolute Array"
-
-    publisherName = "Absolute Array"
-    publisherLogo = "/logo.png"
-    publisherLogoWidth = 512
-    publisherLogoHeight = 512
+publisherLogo = "/logo.png"
+publisherLogoHeight = 512
+publisherLogoWidth = 512
+publisherName = "Absolute Array"
 
 [outputs]
-    home = [ "HTML", "RSS", "SearchIndex", "JSON"]
-    page = ["HTML", "RSS"]
-    section =  ["HTML", "RSS"]
-    taxonomy =  ["HTML", "RSS"]
-    term =  ["HTML", "RSS"]
-
+home = ["HTML", "RSS", "SearchIndex", "JSON"]
+page = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
+term = ["HTML", "RSS"]
 
 [outputFormats]
-    [outputFormats.SearchIndex]
-        mediaType= "application/json"
-        baseName= "search"
-        isPlainText= true
-        notAlternative= true
+[outputFormats.SearchIndex]
+baseName = "search"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [build]
-  writeStats = true
-
+writeStats = true
 
 # [permalinks]
 #     posts = "/:year/:month/:slug/"
 #     page = "/:slug/"
 
-
 [sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
-
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
 
 [imaging]
-quality = 100
 disableDate = true
 disableLatLong = true
+quality = 100
 resampleFilter = "Lanczos"
 
 # [privacy]
