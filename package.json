@@ -13,7 +13,7 @@
     "gulp-clean": "^0.4.0",
     "gulp-shell": "^0.8.0",
     "postcss": "^8.4.5",
-    "postcss-cli": "^9.0.2",
+    "postcss-cli": "^9.1.0",
     "workbox-build": "^6.4.2"
   }
 }
