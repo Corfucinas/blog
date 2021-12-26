@@ -4,7 +4,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "0 0 * * 5"
+    - cron: '0 0 * * 5'
 
 jobs:
   deploy:
@@ -22,13 +22,13 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.5.0
         with:
-          hugo-version: "latest"
+          hugo-version: 'latest'
           extended: true
 
       - name: Install Node
         uses: actions/setup-node@v2.5.0
         with:
-          node-version: "14"
+          node-version: '14'
 
       - name: Build website
         run: |
