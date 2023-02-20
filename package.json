@@ -7,7 +7,7 @@
   "devDependencies": {
     "@ampproject/toolbox-optimizer": "^2.9.0",
     "@fullhuman/postcss-purgecss": "^5.0.0",
-    "cssnano": "^5.1.14",
+    "cssnano": "^5.1.15",
     "cssnano-preset-advanced": "^5.3.9",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
