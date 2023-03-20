@@ -1,6 +1,6 @@
 ---
 author:
-  name: Pedro Torres
+  name: Phillip Torres
   homepage: https://absolutearray.com/
 title: "117 Vscode Extensions - One guide to rule them all (Part 4/5)"
 date: 2021-06-25T16:09:41+08:00

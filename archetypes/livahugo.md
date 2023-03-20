@@ -1,5 +1,5 @@
 ---
-author: Pedro Torres
+author: Phillip Torres
 title: "{{ replace .Name "-" " " | title }}"
 date:  {{ .Date }}
 draft: true

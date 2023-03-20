@@ -1,5 +1,5 @@
 ---
-author: Pedro Torres
+author: Phillip Torres
 title: "Boost Your Css"
 date:  2021-06-30T14:50:19+08:00
 draft: true

@@ -1,6 +1,6 @@
 ---
 author:
-  name: Pedro Torres
+  name: Phillip Torres
   homepage: https://absolutearray.com/
 
 title: Dedicated content for improving your programming abilities and learning new skills

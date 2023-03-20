@@ -1,6 +1,6 @@
 ---
 author:
-  name: Pedro Torres
+  name: Phillip Torres
   homepage: https://absolutearray.com/
   bio: "Interested in algorithm trading, computer languages (Python, JS, SQL, Solidity, Rust), philosophy, and blockchain technology. For me, the most important traits are someone who can be: performance-driven, high integrity, self-disciplined, autodidacticism, and is goal-oriented. My priority is spearheading the development of products with clear communication guidelines."
 

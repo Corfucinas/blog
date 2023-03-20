@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://absolutearray.com/"
-copyright = "Pedro Torres"
+copyright = "Phillip Torres"
 DefaultContentLanguage  = "en"
 disableLanguages        = []
 enableEmoji = true
@@ -132,7 +132,7 @@ logo = "images/favicon/apple-touch-icon-114x114.png"
 home = "Home"
 # Meta data
 description = "Dedicated content for improving your programming abilities and learning new skills"
-author = "Pedro Torres"
+author = "Phillip Torres"
 # Google Analitycs
 googleAnalytics = "G-WHSXXMY8EX"
 # Contact Information
