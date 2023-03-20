@@ -1,7 +1,7 @@
 version: 2
 updates:
-  - package-ecosystem: 'github-actions'
-    directory: '/'
+  - package-ecosystem: github-actions
+    directory: /
     schedule:
       interval: weekly
     open-pull-requests-limit: 99
@@ -11,8 +11,8 @@ updates:
       - dependabot
     commit-message:
       prefix: chore
-  - package-ecosystem: 'gitsubmodule'
-    directory: '/'
+  - package-ecosystem: gitsubmodule
+    directory: /
     schedule:
       interval: weekly
     open-pull-requests-limit: 99
@@ -23,7 +23,7 @@ updates:
       - gitsubmodule
       - dependabot
   - package-ecosystem: npm
-    directory: '/'
+    directory: /
     schedule:
       interval: weekly
     open-pull-requests-limit: 99
@@ -34,7 +34,7 @@ updates:
     commit-message:
       prefix: chore
   - package-ecosystem: pip
-    directory: '/'
+    directory: /
     schedule:
       interval: weekly
     open-pull-requests-limit: 99
