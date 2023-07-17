@@ -10,7 +10,7 @@ stylecloud = "^0.5.2"
 wikipedia = "^1.4.0"
 
 [tool.poetry.dev-dependencies]
-black = "^23.3"
+black = "^23.7"
 mypy = "^1.4"
 wemake-python-styleguide = "^0.18.0"
 pre-commit = "^3.3.3"
