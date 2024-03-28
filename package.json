@@ -8,7 +8,7 @@
     "@ampproject/toolbox-optimizer": "^2.9.0",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "cssnano": "^6.1.2",
-    "cssnano-preset-advanced": "^6.1.0",
+    "cssnano-preset-advanced": "^6.1.2",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-shell": "^0.8.0",
