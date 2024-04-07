@@ -12,7 +12,7 @@ wikipedia = "^1.4.0"
 [tool.poetry.dev-dependencies]
 black = "^24.3"
 mypy = "^1.9"
-wemake-python-styleguide = "^0.19.0"
+wemake-python-styleguide = "^0.19.2"
 pre-commit = "^3.7.0"
 
 [build-system]
